@@ -1,41 +1,51 @@
----
-layout: default
----
+<head> 
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/index.css" rel="stylesheet"> 
+    
+</head>
+<body>
+<header>
+   <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+          <a class="navbar-brand" href="#">
+              <img alt="Brand" src="assets/images/brain.svg" width="20em">
+          </a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="http://github.com/pschydlo/RLEnv.directory">Contribute</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <section class="container mx-auto" style="width: 30em;">
+        <h1>RLEnv.directory</h1>
+        Your go to place for finding that perfect learning environment.
+    </section>
+</header>
 
-<div class="home">
-
-  <h1 class="page-heading">Howdy</h1>
-
-  <div class="post-content">
-    <p>This is the base Jekyll and Webpack boilerplate, created and maintained by <a href="https://github.com/allizad">@allizad</a>.</p>
-
-    <p>You can learn more about how this was put together in my walkthrough post here:</p>
-    <ul>
-    <li><a href="https://medium.com/allizad/">Using Webpack and React with&nbsp;Jekyll</a></li>
-    </ul>
-
-    <p>See the full series of adding search to Jekyll, for which this project was a building block, here:</p>
-    <ul>
-    <li><a href="https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093">Elasticsearch for Jekyll, Part 1</a></li>
-    </ul>
-
-    <p>Thanks! Now go build shit!</p>
-
-    <p><img src="assets/images/cat-lappy.gif" alt="cat-lappy-image"></p>
-  </div>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+<section class="row main-section">
+    <div id="root"></div>
+</section>
 </div>
+
+<script src="assets/javascripts/bundle.js"></script>
+</body>
