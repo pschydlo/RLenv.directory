@@ -63,6 +63,8 @@ class ControlPanel extends Component {
   }
 
   render() {
+    var tags = this.props.tags
+
     return (
       <div>
       <h2>Filter</h2>
@@ -71,15 +73,15 @@ class ControlPanel extends Component {
        
        <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+"]} text="Agents"/>
 
-       <h3>Tag</h3>
-
-       <TagButton onToggle={this.tagToggle} tagName="Control" tagCount="7"/>
-       <TagButton onToggle={this.tagToggle} tagName="Energy" tagCount="3"/>
-       <TagButton onToggle={this.tagToggle} tagName="Battle" tagCount="4"/> 
-
        <h3>Complexity</h3>
        
-      <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High"]} text="Complexity"/>
+       <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High"]} text="Complexity"/>
+
+       <h3>Tag</h3>
+
+      {Object.keys(tags).map( tag => 
+      <TagButton onToggle={this.tagToggle} tagName={tag} tagCount={tags[tag]}/>
+      )}
 
       </div> 
     )

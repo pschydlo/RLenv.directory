@@ -8,7 +8,7 @@
             "short":"Energy", 
             "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["energy"]
+            "tags": ["Energy"]
         },
         {
             "name": "Gym Gazebo", 

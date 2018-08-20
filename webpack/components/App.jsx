@@ -3,6 +3,7 @@ import Results from './Results';
 import React, { Component } from 'react';
 
 var DATA_ENDPOINT = '/data/envs.json'
+var TAG_ENDPOINT  = '/data/tags.json'
 
 class App extends Component {
   constructor(props) {
@@ -11,7 +12,8 @@ class App extends Component {
     this.state = {
       loading: true,
       envs: [],
-      filtered_envs: []
+      filtered_envs: [],
+      tags: []
     };
 
     this.filterChange = this.filterChange.bind(this)
@@ -23,12 +25,22 @@ class App extends Component {
       .then(data => this.setState({
         loading: false,
         envs: data.envs,
-        filtered_envs: data.envs
+        filtered_envs: data.envs,
+        tags: this.state.tags
       }));
+
+    fetch(TAG_ENDPOINT)
+    .then(response => response.json())
+    .then(data => {
+      this.setState({
+      loading: this.state.loading,
+      envs: this.state.envs,
+      filtered_envs: this.state.filtered_envs,
+      tags: data})}
+    )
   }
 
   filterChange(filter_opt){
-    console.log(filter_opt)
 
     var envs = this.state.envs
     var filtered_envs = this.filterFn(envs, filter_opt)
@@ -36,12 +48,13 @@ class App extends Component {
     this.setState({
       filtered_envs: filtered_envs,
       envs: this.state.envs,
-      loading: false
+      loading: false, 
+      tags: this.state.tags
     })
-    
-    console.log(filter_opt)
-    console.log(filtered_envs)
-    console.log(this.state.envs)
+
+    Object.keys(this.state.tags).forEach( key => { 
+      console.log(key)
+    })
   }
 
   filterFn(envs, filter_opt){
@@ -58,6 +71,33 @@ class App extends Component {
         continue
       }
 
+      console.log(env.tags)
+      console.log(filter_opt.tags)
+
+      if(filter_opt.tags != []){
+        var present = true
+
+        for(var j=0; j< filter_opt.tags.length; j++){
+          // Check if the tag is present in the environment
+          var curr_tag = filter_opt.tags[j]
+          
+          console.log(env.tags)
+          console.log(curr_tag)
+
+          if (env.tags.indexOf(curr_tag) == -1){
+            present = false
+            break
+          }
+        }
+        
+        if (present == false){
+          continue
+        }else{
+          console.log("test")
+        }
+      }
+      
+
       filtered_envs.push(env)
     }
 
@@ -71,7 +111,7 @@ class App extends Component {
     return (
       <div>
         <aside className="col-md-3">
-            <ControlPanel onUpdate={this.filterChange}/>
+            <ControlPanel tags={this.state.tags} onUpdate={this.filterChange}/>
         </aside>
         <main className="col-md-9">
             
