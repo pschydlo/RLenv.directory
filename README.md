@@ -4,6 +4,8 @@
 
 Reinforcement Learning environments Index. Suggestions for additions via [pull request](http://makeapullrequest.com) welcome!
 
+Find your perfect learning environment at: [rlenv.directory](http://rlenv.directory)
+
 ## Generic
 
 ### [Control Suite](https://github.com/deepmind/dm_control), DeepMind
