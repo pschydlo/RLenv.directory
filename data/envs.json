@@ -240,7 +240,7 @@
             "short": "StarCraft II",
             "stars": 4882,
             "tags": [
-                "StartCraft",
+                "StarCraft",
                 "RTS",
                 "Video Game"
             ],
@@ -265,7 +265,7 @@
             "long": "A bridge between Torch and StarCraft.",
             "name": "TorchCraft",
             "num_agents": 1,
-            "short": "StartCraft",
+            "short": "StartCraft II",
             "stars": 1136,
             "tags": [
                 "StarCraft",
