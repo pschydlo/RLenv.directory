@@ -1,6 +1,6 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# Reinforcement Learning Environments List
+# RLenv.directory
 
 Reinforcement Learning environments Index. Suggestions for additions via [pull request](http://makeapullrequest.com) welcome!
 
