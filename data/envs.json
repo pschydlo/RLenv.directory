@@ -2,6 +2,20 @@
     "envs": [
         {
             "complexity": "medium",
+            "long": "Set of Python Reinforcement Learning environments powered by the MuJoCo physics engine.",
+            "name": "Control Suite",
+            "num_agents": 1,
+            "short": "Control",
+            "stars": 1065,
+            "tags": [
+                "Control",
+                "Robotics",
+                "Walking"
+            ],
+            "url": "https://github.com/deepmind/dm_control"
+        },
+        {
+            "complexity": "medium",
             "long": "Supports running reinforcement learning experiments on energy environments.",
             "name": "EnergyPy",
             "num_agents": 1,
@@ -122,7 +136,7 @@
             "name": "Roboschool",
             "num_agents": 1,
             "short": "Robotics",
-            "stars": 1337,
+            "stars": 1338,
             "tags": [
                 "Robotics",
                 "Control"
@@ -141,6 +155,19 @@
                 "Finance"
             ],
             "url": "https://github.com/kh-kim/stock_market_reinforcement_learning"
+        },
+        {
+            "complexity": "medium",
+            "long": "Gym - 32 levels of original Super Mario Bros.",
+            "name": "gym-super-mario",
+            "num_agents": 1,
+            "short": "Super Mario",
+            "stars": 144,
+            "tags": [
+                "Arcade",
+                "Super Mario"
+            ],
+            "url": "https://github.com/ppaquette/gym-super-mario"
         },
         {
             "complexity": "medium",
@@ -246,6 +273,58 @@
                 "Video Game"
             ],
             "url": "https://github.com/TorchCraft/TorchCraft"
+        },
+        {
+            "complexity": "high",
+            "long": "Integrates Unreal Engine with OpenAI Gym for visual reinforcement learning based on UnrealCV.",
+            "name": "gym-unrealcv",
+            "num_agents": 1,
+            "short": "Unreal Engine",
+            "stars": 74,
+            "tags": [
+                "Unreal Engine",
+                "Engine"
+            ],
+            "url": "https://github.com/zfw1226/gym-unrealcv"
+        },
+        {
+            "complexity": "high",
+            "long": "A customisable 3D platform for agent-based AI research based on id Software's Quake III Arena via ioquake3.",
+            "name": "Lab",
+            "num_agents": 1,
+            "short": "Quake III",
+            "stars": 5246,
+            "tags": [
+                "Quake",
+                "Engine"
+            ],
+            "url": "https://github.com/deepmind/lab"
+        },
+        {
+            "complexity": "high",
+            "long": "Open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.",
+            "name": "ML Agents",
+            "num_agents": 1,
+            "short": "Unity",
+            "stars": 3715,
+            "tags": [
+                "Unity",
+                "Engine"
+            ],
+            "url": "https://github.com/Unity-Technologies/ml-agents"
+        },
+        {
+            "complexity": "high",
+            "long": "Unreal Engine 4 plugin that adds support for embedded Lua/Torch scripts in the game engine loop.",
+            "name": "UE-Torch",
+            "num_agents": 1,
+            "short": "Unreal Engine",
+            "stars": 309,
+            "tags": [
+                "Unreal Engine",
+                "Engine"
+            ],
+            "url": "https://github.com/facebook/UETorch"
         }
     ]
 }
