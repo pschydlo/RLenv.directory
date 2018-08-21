@@ -2,7 +2,7 @@ import ControlPanel from './ControlPanel';
 import Results from './Results';
 import React, { Component } from 'react';
 
-var DATA_ENDPOINT = '/data/envs_public.json'
+var DATA_ENDPOINT = '/data/envs.json'
 var TAG_ENDPOINT  = '/data/tags.json'
 
 class App extends Component {
@@ -127,7 +127,7 @@ class App extends Component {
                     <h6 className="card-subtitle mb-2 text-muted">{env.short}</h6>
                     <p className="card-text">{env.long}</p>
                     <p>
-                    {env.tags.map(tag =>
+                    {env.tags.slice(0,2).map(tag =>
                       <div className="label label-success">{tag}</div>
                     )}
                     </p>

@@ -22,7 +22,7 @@ def extract_tags(json):
 
 def save_tags(tags, TAG_FILE):
     with open(TAG_FILE, 'w') as fp:
-        json.dump(tags, fp)
+        json.dump(tags, fp, sort_keys=True, indent=4)
 
 
 with open(ENV_FILE) as f:

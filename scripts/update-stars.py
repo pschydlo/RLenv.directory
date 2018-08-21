@@ -7,7 +7,7 @@ import requests
 import secret
 
 ENV_FILE = '../data/envs.json'
-ENV_OUT_FILE = '../data/envs_public.json'
+ENV_OUT_FILE = '../data/envs.json'
 
 def fetch_stars(json):
     
@@ -29,20 +29,20 @@ def fetch_stars(json):
         repo_name = url_pieces[2]
 
         url = "https://api.github.com/repos/"+repo_user+"/"+repo_name+"?access_token="+secret.TOKEN        
-        print(url)
         
         repo_info = requests.get(url)
         repo_info = repo_info.json()
 
-        print(repo_info)
-
         envs[i]['stars'] = repo_info['stargazers_count']
 
-    return envs
+    out = {}
+    out['envs'] = envs
+
+    return out
 
 def save_env(envs, ENV_OUT_FILE):
     with open(ENV_OUT_FILE, 'w') as fp:
-        json.dump(envs, fp)
+        json.dump(envs, fp, sort_keys=True, indent=4)
 
 
 with open(ENV_FILE) as f:

@@ -1,176 +1,251 @@
 {
-    "envs": 
-    [
+    "envs": [
         {
-            "name": "EnergyPy", 
-            "url": "https://github.com/ADGEfficiency/energy_py", 
-            "long": "Supports running reinforcement learning experiments on energy environments.", 
-            "short":"Energy", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Energy"]
+            "long": "Supports running reinforcement learning experiments on energy environments.",
+            "name": "EnergyPy",
+            "num_agents": 1,
+            "short": "Energy",
+            "stars": 60,
+            "tags": [
+                "Energy"
+            ],
+            "url": "https://github.com/ADGEfficiency/energy_py"
         },
         {
-            "name": "Gym Gazebo", 
-            "url": "https://github.com/erlerobot/gym-gazebo", 
-            "long": "A toolkit for developing and comparing reinforcement learning algorithms using ROS and Gazebo.", 
-            "short":"ROS RL", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["ROS", "Robotics", "Control"]
+            "long": "A toolkit for developing and comparing reinforcement learning algorithms using ROS and Gazebo.",
+            "name": "Gym Gazebo",
+            "num_agents": 1,
+            "short": "ROS RL",
+            "stars": 368,
+            "tags": [
+                "ROS",
+                "Robotics",
+                "Control"
+            ],
+            "url": "https://github.com/erlerobot/gym-gazebo"
         },
         {
-            "name": "Gym Memory", 
-            "url": "https://github.com/maximecb/gym-memory", 
-            "long": "Simple 2D reinforcement learning environments to perform memory experiments.", 
-            "short":"Memory", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Memory", "2D"]
+            "long": "Simple 2D reinforcement learning environments to perform memory experiments.",
+            "name": "Gym Memory",
+            "num_agents": 1,
+            "short": "Memory",
+            "stars": 5,
+            "tags": [
+                "Memory",
+                "2D"
+            ],
+            "url": "https://github.com/maximecb/gym-memory"
         },
         {
-            "name": "GymFC", 
-            "url": "https://github.com/wil3/gymfc", 
-            "long": "An OpenAI environment for developing aircraft flight control systems using reinforcement learning", 
-            "short":"Airplane", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Control", "Airplane"]
+            "long": "An OpenAI environment for developing aircraft flight control systems using reinforcement learning",
+            "name": "GymFC",
+            "num_agents": 1,
+            "short": "Airplane",
+            "stars": 13,
+            "tags": [
+                "Control",
+                "Airplane"
+            ],
+            "url": "https://github.com/wil3/gymfc"
         },
         {
-            "name": "Hold'em", 
-            "url": "https://github.com/wenkesj/holdem", 
-            "long": "OpenAI Gym No-Limit Texas Hold'em* (NLTH) environment written in Python.", 
-            "short":"Poker", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Poker"]
+            "long": "OpenAI Gym No-Limit Texas Hold'em* (NLTH) environment written in Python.",
+            "name": "Hold'em",
+            "num_agents": 1,
+            "short": "Poker",
+            "stars": 37,
+            "tags": [
+                "Poker"
+            ],
+            "url": "https://github.com/wenkesj/holdem"
         },
         {
-            "name": "OSim-RL", 
-            "url": "https://github.com/stanfordnmbl/osim-rl", 
-            "long": "Reinforcement learning environments with musculoskeletal model.", 
-            "short":"Muscles", 
-            "num_agents": 1, 
             "complexity": "high",
-            "tags": ["Muscles", "Walking"]
+            "long": "Reinforcement learning environments with musculoskeletal model.",
+            "name": "OSim-RL",
+            "num_agents": 1,
+            "short": "Muscles",
+            "stars": 499,
+            "tags": [
+                "Muscles",
+                "Walking"
+            ],
+            "url": "https://github.com/stanfordnmbl/osim-rl"
         },
         {
-            "name": "PyGame", 
-            "url": "https://github.com/ntasfi/PyGame-Learning-Environment", 
-            "long": "Learning environment, mimicking the Arcade Learning Environment interface.", 
-            "short":"Arcade", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Arcade", "Walking"]
+            "long": "Learning environment, mimicking the Arcade Learning Environment interface.",
+            "name": "PyGame",
+            "num_agents": 1,
+            "short": "Arcade",
+            "stars": 502,
+            "tags": [
+                "Arcade",
+                "Walking"
+            ],
+            "url": "https://github.com/ntasfi/PyGame-Learning-Environment"
         },
         {
-            "name": "PyBullet gym", 
-            "url": "https://github.com/benelot/pybullet-gym", 
-            "long": "Open-source implementation of the OpenAI Gym MuJoCo environments.", 
-            "short":"Control", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Control", "Walking", "Robotics"]
+            "long": "Open-source implementation of the OpenAI Gym MuJoCo environments.",
+            "name": "PyBullet gym",
+            "num_agents": 1,
+            "short": "Control",
+            "stars": 81,
+            "tags": [
+                "Control",
+                "Walking",
+                "Robotics"
+            ],
+            "url": "https://github.com/benelot/pybullet-gym"
         },
         {
-            "name": "Retro", 
-            "url": "https://github.com/openai/retro", 
-            "long": "Wrapper for video game emulator cores using the Libretro API.", 
-            "short":"Arcade", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Arcade"]
+            "long": "Wrapper for video game emulator cores using the Libretro API.",
+            "name": "Retro",
+            "num_agents": 1,
+            "short": "Arcade",
+            "stars": 1111,
+            "tags": [
+                "Arcade"
+            ],
+            "url": "https://github.com/openai/retro"
         },
         {
-            "name": "Roboschool", 
-            "url": "https://github.com/openai/roboschool", 
-            "long": "Open-source software for robot simulation, integrated with OpenAI Gym.", 
-            "short":"Robotics", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Robotics", "Control"]
+            "long": "Open-source software for robot simulation, integrated with OpenAI Gym.",
+            "name": "Roboschool",
+            "num_agents": 1,
+            "short": "Robotics",
+            "stars": 1337,
+            "tags": [
+                "Robotics",
+                "Control"
+            ],
+            "url": "https://github.com/openai/roboschool"
         },
         {
-            "name": "Stock Market RL", 
-            "url": "https://github.com/kh-kim/stock_market_reinforcement_learning", 
-            "long": "General environment for stock market trading simulation using OpenAI Gym.", 
-            "short":"Stock Market", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Stock Market", "Finance"]
+            "long": "General environment for stock market trading simulation using OpenAI Gym.",
+            "name": "Stock Market RL",
+            "num_agents": 1,
+            "short": "Stock Market",
+            "stars": 466,
+            "tags": [
+                "Stock Market",
+                "Finance"
+            ],
+            "url": "https://github.com/kh-kim/stock_market_reinforcement_learning"
         },
         {
-            "name": "TextWorld", 
-            "url": "https://github.com/Microsoft/TextWorld", 
-            "long": "Sandbox for training and testing reinforcement learning (RL) agents on text-based games.", 
-            "short":"Text", 
-            "num_agents": 1, 
             "complexity": "medium",
-            "tags": ["Text"]
+            "long": "Sandbox for training and testing reinforcement learning (RL) agents on text-based games.",
+            "name": "TextWorld",
+            "num_agents": 1,
+            "short": "Text",
+            "stars": 257,
+            "tags": [
+                "Text"
+            ],
+            "url": "https://github.com/Microsoft/TextWorld"
         },
         {
-            "name": "VizDoom", 
-            "url": "https://github.com/mwydmuch/ViZDoom", 
-            "long": "Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information.", 
-            "short":"Video Game", 
-            "num_agents": 1, 
             "complexity": "high",
-            "tags": ["Video Game", "Doom"]
+            "long": "Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information.",
+            "name": "VizDoom",
+            "num_agents": 1,
+            "short": "Video Game",
+            "stars": 702,
+            "tags": [
+                "Video Game",
+                "Doom"
+            ],
+            "url": "https://github.com/mwydmuch/ViZDoom"
         },
         {
-            "name": "ALife", 
-            "url": "https://github.com/jmread/alife", 
-            "long": "An artificial life environment for testing reinforcement learning algorithms.", 
-            "short":"Eco system", 
-            "num_agents": 20, 
             "complexity": "medium",
-            "tags": ["Eco System", "Competition"]
+            "long": "An artificial life environment for testing reinforcement learning algorithms.",
+            "name": "ALife",
+            "num_agents": 20,
+            "short": "Eco system",
+            "stars": 7,
+            "tags": [
+                "Eco System",
+                "Competition"
+            ],
+            "url": "https://github.com/jmread/alife"
         },
         {
-            "name": "MAgent", 
-            "url": "https://github.com/geek-ai/MAgent", 
-            "long": "MAgent is a research platform for many-agent reinforcement learning.", 
-            "short": "Multi-agent", 
-            "num_agents": 1000, 
             "complexity": "medium",
-            "tags": ["Eco System", "Competition"]
+            "long": "MAgent is a research platform for many-agent reinforcement learning.",
+            "name": "MAgent",
+            "num_agents": 1000,
+            "short": "Multi-agent",
+            "stars": 750,
+            "tags": [
+                "Eco System",
+                "Competition"
+            ],
+            "url": "https://github.com/geek-ai/MAgent"
         },
         {
-            "name": "Multiagent Competition", 
-            "url": "https://github.com/openai/multiagent-competition", 
-            "long": "Repository for competitive multi-agent environments.", 
-            "short":"Competition", 
-            "num_agents": 2, 
             "complexity": "medium",
-            "tags": ["Competition"]
+            "long": "Repository for competitive multi-agent environments.",
+            "name": "Multiagent Competition",
+            "num_agents": 2,
+            "short": "Competition",
+            "stars": 450,
+            "tags": [
+                "Competition"
+            ],
+            "url": "https://github.com/openai/multiagent-competition"
         },
         {
-            "name": "pysc2", 
-            "url": "https://github.com/deepmind/pysc2", 
-            "long": "PySC2 is DeepMind's Python component of the StarCraft II Learning Environment (SC2LE).", 
-            "short":"StarCraft II", 
-            "num_agents": 1, 
             "complexity": "high",
-            "tags": ["StartCraft", "RTS", "Video Game"]
+            "long": "PySC2 is DeepMind's Python component of the StarCraft II Learning Environment (SC2LE).",
+            "name": "pysc2",
+            "num_agents": 1,
+            "short": "StarCraft II",
+            "stars": 4882,
+            "tags": [
+                "StartCraft",
+                "RTS",
+                "Video Game"
+            ],
+            "url": "https://github.com/deepmind/pysc2"
         },
         {
-            "name": "Project Malmo", 
-            "url": "https://github.com/deepmind/pysc2", 
-            "long": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft.", 
-            "short":"Minecraft", 
-            "num_agents": 1, 
             "complexity": "high",
-            "tags": ["Minecraft", "Open world", "Video Game"]
+            "long": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft.",
+            "name": "Project Malmo",
+            "num_agents": 1,
+            "short": "Minecraft",
+            "stars": 4882,
+            "tags": [
+                "Minecraft",
+                "Open world",
+                "Video Game"
+            ],
+            "url": "https://github.com/deepmind/pysc2"
         },
         {
-            "name": "TorchCraft", 
-            "url": "https://github.com/TorchCraft/TorchCraft", 
-            "long": "A bridge between Torch and StarCraft.", 
-            "short":"StartCraft", 
-            "num_agents": 1, 
             "complexity": "high",
-            "tags": ["StarCraft", "RTS", "Video Game"]
+            "long": "A bridge between Torch and StarCraft.",
+            "name": "TorchCraft",
+            "num_agents": 1,
+            "short": "StartCraft",
+            "stars": 1136,
+            "tags": [
+                "StarCraft",
+                "RTS",
+                "Video Game"
+            ],
+            "url": "https://github.com/TorchCraft/TorchCraft"
         }
     ]
 }
