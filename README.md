@@ -1,5 +1,7 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+<img src="https://rlenv.directory/assets/images/brain.svg" alt="Logo" width="40px" height="40px">
+
 # RLenv.directory
 
 Find your perfect learning environment at: [RLenv.directory](http://rlenv.directory)
