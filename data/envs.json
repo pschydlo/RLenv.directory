@@ -16,6 +16,18 @@
         },
         {
             "complexity": "medium",
+            "long": "A Real-Time-Strategy game for Deep Learning research.",
+            "name": "Deep RTS",
+            "num_agents": 1,
+            "short": "RTS",
+            "stars": 20,
+            "tags": [
+                "RTS"
+            ],
+            "url": "https://github.com/cair/deep-rts"
+        },
+        {
+            "complexity": "medium",
             "long": "Supports running reinforcement learning experiments on energy environments.",
             "name": "EnergyPy",
             "num_agents": 1,
@@ -186,7 +198,7 @@
             "long": "Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information.",
             "name": "VizDoom",
             "num_agents": 1,
-            "short": "Video Game",
+            "short": "Doom",
             "stars": 702,
             "tags": [
                 "Video Game",
@@ -265,7 +277,7 @@
             "long": "A bridge between Torch and StarCraft.",
             "name": "TorchCraft",
             "num_agents": 1,
-            "short": "StartCraft II",
+            "short": "StarCraft II",
             "stars": 1136,
             "tags": [
                 "StarCraft",
