@@ -54,3 +54,7 @@ h3{
     height: 6em;
     overflow: hidden;
 }
+
+.label{
+    margin-left: 0.1em;
+}
