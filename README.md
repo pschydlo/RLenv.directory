@@ -2,9 +2,11 @@
 
 # RLenv.directory
 
-Reinforcement Learning environments Index. Suggestions for additions via [pull request](http://makeapullrequest.com) welcome!
+Find your perfect learning environment at: [RLenv.directory](http://rlenv.directory)
 
-Find your perfect learning environment at: [rlenv.directory](http://rlenv.directory)
+Reinforcement Learning environments index hosted on github pages. Suggestions for additions via [pull request](http://makeapullrequest.com) welcome!
+
+Our mission is to list the largest possible number of reinforcement learning environments.
 
 ## Introduction
 
