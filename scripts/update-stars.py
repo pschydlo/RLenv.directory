@@ -1,33 +1,53 @@
 import json
 from pprint import pprint
 
-ENV_FILE = '../data/envs.json'
-ENV_OUT_FILE = '../data/envs_out.json'
+import requests
 
-def extract_tags(json):
-    tags = {}
+# Store your github API access credentials here to protect them from the interwebz.
+import secret
+
+ENV_FILE = '../data/envs.json'
+ENV_OUT_FILE = '../data/envs_public.json'
+
+def fetch_stars(json):
+    
     
     envs = json['envs']
 
-    for env in envs:
-        env_tags = env['tags']
+
+    for i in range(0, len(envs)):
+        env = envs[i]
+        repo_url = env['url']
         
-        for tag in env_tags:
-            if tag in tags.keys():
-                tags[tag] = tags[tag] + 1
-            else:
-                tags[tag] = 1
+        if "github.com" not in repo_url:
+            continue
 
-    return tags
+        url_pieces = repo_url.split("github.com")
+        url_pieces = url_pieces[1].split('/')
 
-def save_tags(tags, TAG_FILE):
-    with open(TAG_FILE, 'w') as fp:
-        json.dump(tags, fp)
+        repo_user = url_pieces[1]
+        repo_name = url_pieces[2]
+
+        url = "https://api.github.com/repos/"+repo_user+"/"+repo_name+"?access_token="+secret.TOKEN        
+        print(url)
+        
+        repo_info = requests.get(url)
+        repo_info = repo_info.json()
+
+        print(repo_info)
+
+        envs[i]['stars'] = repo_info['stargazers_count']
+
+    return envs
+
+def save_env(envs, ENV_OUT_FILE):
+    with open(ENV_OUT_FILE, 'w') as fp:
+        json.dump(envs, fp)
 
 
 with open(ENV_FILE) as f:
     data = json.load(f)
 
-    tags = extract_tags(data)
+    data = fetch_stars(data)
     
-    save_tags(tags, TAG_FILE)
+    save_env(data, ENV_OUT_FILE)
