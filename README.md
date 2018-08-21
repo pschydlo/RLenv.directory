@@ -8,11 +8,11 @@ Find your perfect learning environment at: [rlenv.directory](http://rlenv.direct
 
 ## Introduction
 
-In the age of supervised learning datasets where a major force in the machine learning strategy. Processing capacity, algorithms and data defined the evolution of the field.
+In the age of supervised learning datasets were a major force in the machine learning strategy. Processing capacity, algorithms and data defined the evolution of the field.
 
-Similarly, reinforcement learning is limited by processing capacity and algorithmic innovation, but, in contrast to supervised learning is strongly dependent on learning environments. Learning environments can be seen as simulations of real life processes, simple or complex. 
+Similarly, processing capacity, algorithmic innovation and "datasets" limit progress in the reinforcement learning field. Datasets in this field come in the form of so called learning environments. Learning environments can be seen as simulations of real life processes, simple or complex. 
 
-Therefore, a key piece for the progression in the field of reinforcement learning are new learning environments. The mission of this platform is to encourage the creation of new and more complex learning environments through facilitating the discovery of new environments by indexing them.
+Therefore, a key piece for progress in the field of reinforcement learning are new learning environments. The mission of this platform is to encourage the creation of new and more complex learning environments through facilitating the discovery of new environments by indexing them.
 
 ## Contributing
 
