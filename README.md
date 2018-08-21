@@ -8,8 +8,6 @@ Find your perfect learning environment at: [RLenv.directory](http://rlenv.direct
 
 Reinforcement Learning environments index hosted on github pages. Suggestions for additions via [pull request](http://makeapullrequest.com) welcome!
 
-Our mission is to list the largest possible number of reinforcement learning environments.
-
 ## Introduction
 
 In the age of supervised learning datasets were a major force in the machine learning strategy. Processing capacity, algorithms and data defined the evolution of the field.
