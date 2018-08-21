@@ -1,26 +1,26 @@
 {
-  "name": "jekyll-webpack-react",
+  "name": "rlenv.directory",
   "version": "1.0.0",
-  "description": "A simple boilerplate for webpack and jekyll integration.",
+  "description": "Your go to place for finding that perfect learning environment.",
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allizad/jekyll-webpack.git"
+    "url": "git+https://github.com/pschydlo/rlenv.directory.git"
   },
   "keywords": [
     "jekyll",
     "webpack",
     "react"
   ],
-  "author": "Allison Zadrozny",
+  "author": "Paul Schydlo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/allizad/jekyll-webpack/issues"
+    "url": "https://github.com/pschydlo/rlenv.directory/issues"
   },
-  "homepage": "https://github.com/allizad/jekyll-webpack#readme",
+  "homepage": "https://rlenv.directory",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",

@@ -63,16 +63,15 @@ class App extends Component {
     for (var i = 0; i < envs.length; i++) {
       var env = envs[i]
 
+      // Check if complexity option is set and if environment complexity has this value
       if (filter_opt.complexity != null && env.complexity != filter_opt.complexity){
         continue      
       }
   
+      // Check if agents option is set and if number of agents is equal to number or larger than 3 if option is larger than 3
       if (filter_opt.agents != null && ((filter_opt.agents != 3 && env.num_agents != filter_opt.agents) || (filter_opt.agents == 3 && env.num_agents < 3) )){
         continue
       }
-
-      console.log(env.tags)
-      console.log(filter_opt.tags)
 
       if(filter_opt.tags != []){
         var present = true
@@ -92,8 +91,6 @@ class App extends Component {
         
         if (present == false){
           continue
-        }else{
-          console.log("test")
         }
       }
       
