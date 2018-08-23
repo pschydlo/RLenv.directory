@@ -337,6 +337,69 @@
                 "Engine"
             ],
             "url": "https://github.com/facebook/UETorch"
+        },
+        {
+            "complexity": "high",
+            "long": "Simulator for controlling drones, based on Unreal Engine",
+            "name": "AirSim",
+            "num_agents": 1,
+            "short": "AirSim",
+            "stars": 5582,
+            "tags": [
+                "Simulator",
+                "Control"
+            ],
+            "url": "https://github.com/Microsoft/AirSim"
+        },
+        {
+            "complexity": "high",
+            "long": "Environment for playing Flash games",
+            "name": "Flash Reinforcement Learning",
+            "num_agents": 1,
+            "short": "FlashRL",
+            "stars": 20,
+            "tags": [
+                "Video Game"
+            ],
+            "url": "https://github.com/cair/FlashRL"
+        },
+        {
+            "complexity": "medium",
+            "long": "Environment for Toribash game with hand-to-hand humanoid combat).",
+            "name": "Toribash Learning Environment",
+            "num_agents": 2,
+            "short": "ToriLLE",
+            "stars": 16,
+            "tags": [
+                "Video game"
+            ],
+            "url": "https://github.com/Miffyli/ToriLLE"
+        },
+        {
+            "complexity": "medium",
+            "long": "Lightweight and fast environment for concurrent MiniRTS, Atari and Go games.",
+            "name": "End-To-End, Lightweight and Flexible Platform for Game Research",
+            "num_agents": 1,
+            "short": "ELF",
+            "stars": 1746,
+            "tags": [
+                "Video game",
+                "RTS",
+                "Arcade"
+            ],
+            "url": "https://github.com/facebookresearch/ELF"
+        },
+        {
+            "complexity": "medium",
+            "long": "Environment for playing Little Fighter 2.",
+            "name": "LF2Gym",
+            "num_agents": 10,
+            "short": "LF2Gym",
+            "stars": 46,
+            "tags": [
+                "Video game"
+            ],
+            "url": "https://github.com/elvisyjlin/lf2gym"
         }
     ]
 }
