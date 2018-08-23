@@ -215,7 +215,8 @@
             "stars": 7,
             "tags": [
                 "Eco System",
-                "Competition"
+                "Competition",
+                "Multi-agent"
             ],
             "url": "https://github.com/jmread/alife"
         },
@@ -228,7 +229,8 @@
             "stars": 752,
             "tags": [
                 "Eco System",
-                "Competition"
+                "Competition",
+                "Multi-agent"
             ],
             "url": "https://github.com/geek-ai/MAgent"
         },
@@ -240,7 +242,8 @@
             "short_descr": "Competition",
             "stars": 450,
             "tags": [
-                "Competition"
+                "Competition",
+                "Multi-agent"
             ],
             "url": "https://github.com/openai/multiagent-competition"
         },
