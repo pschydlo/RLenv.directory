@@ -344,7 +344,7 @@
             "name": "AirSim",
             "num_agents": 1,
             "short_descr": "Simulator",
-            "stars": 5582,
+            "stars": 5583,
             "tags": [
                 "Simulator",
                 "Control"
@@ -393,13 +393,39 @@
             "complexity": "medium",
             "long": "Environment for playing Little Fighter 2.",
             "name": "LF2Gym",
-            "num_agents": 10,
+            "num_agents": 1,
             "short_descr": "Litle Fighter 2",
             "stars": 46,
             "tags": [
                 "Video Game"
             ],
             "url": "https://github.com/elvisyjlin/lf2gym"
+        },
+        {
+            "complexity": "high",
+            "long": "Open-source simulator for autonomous driving research.",
+            "name": "CARLA",
+            "num_agents": 1,
+            "short_descr": "Driving simulator",
+            "stars": 1621,
+            "tags": [
+                "Simulator",
+                "Driving"
+            ],
+            "url": "https://github.com/carla-simulator/carla"
+        },
+        {
+            "complexity": "high",
+            "long": "Real-World Perception for Embodied Agents.",
+            "name": "GibsonEnv",
+            "num_agents": 1,
+            "short_descr": "Autonomous navigation",
+            "stars": 145,
+            "tags": [
+                "Robotics",
+                "Perception"
+            ],
+            "url": "https://github.com/StanfordVL/GibsonEnv"
         }
     ]
 }
