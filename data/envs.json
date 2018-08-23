@@ -426,6 +426,19 @@
                 "Perception"
             ],
             "url": "https://github.com/StanfordVL/GibsonEnv"
+        },
+        {
+            "complexity": "medium",
+            "long": "Multi-agent reinforcement learning environemnts.",
+            "name": "MADRL",
+            "num_agents": 2,
+            "short_descr": "Multi-agent",
+            "stars": 99,
+            "tags": [
+                "Competition",
+                "Multi-agent"
+            ],
+            "url": "https://github.com/sisl/MADRL"
         }
     ]
 }
