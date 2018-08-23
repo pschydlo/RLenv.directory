@@ -353,8 +353,8 @@
         },
         {
             "complexity": "high",
-            "long": "Environment for playing Flash games",
-            "name": "Flash Reinforcement Learning",
+            "long": "Framework for developing RL algorithms for flash games",
+            "name": "FlashRL",
             "num_agents": 1,
             "short_descr": "Flash Games",
             "stars": 20,
@@ -366,7 +366,7 @@
         {
             "complexity": "medium",
             "long": "Environment for Toribash game with hand-to-hand humanoid combat.",
-            "name": "Toribash Learning Environment",
+            "name": "ToriLLE",
             "num_agents": 2,
             "short_descr": "Toribash",
             "stars": 16,
