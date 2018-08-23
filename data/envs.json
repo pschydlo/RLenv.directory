@@ -442,6 +442,18 @@
                 "Multi-agent"
             ],
             "url": "https://github.com/sisl/MADRL"
+        },
+        {
+            "complexity": "medium",
+            "long": "Web interaction benchmark for reinforcement learning.",
+            "name": "MiniWoB++",
+            "num_agents": 1,
+            "short_descr": "Web",
+            "stars": 3,
+            "tags": [
+                "Web"
+            ],
+            "url": "https://github.com/stanfordnlp/miniwob-plusplus"
         }
     ]
 }
