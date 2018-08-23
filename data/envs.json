@@ -305,7 +305,7 @@
             "name": "Lab",
             "num_agents": 1,
             "short": "Quake III",
-            "stars": 5250,
+            "stars": 5251,
             "tags": [
                 "Quake",
                 "Engine"
@@ -365,25 +365,25 @@
         },
         {
             "complexity": "medium",
-            "long": "Environment for Toribash game with hand-to-hand humanoid combat).",
+            "long": "Environment for Toribash game with hand-to-hand humanoid combat.",
             "name": "Toribash Learning Environment",
             "num_agents": 2,
             "short": "ToriLLE",
             "stars": 16,
             "tags": [
-                "Video game"
+                "Video Game"
             ],
             "url": "https://github.com/Miffyli/ToriLLE"
         },
         {
             "complexity": "medium",
             "long": "Lightweight and fast environment for concurrent MiniRTS, Atari and Go games.",
-            "name": "End-To-End, Lightweight and Flexible Platform for Game Research",
+            "name": "ELF",
             "num_agents": 1,
             "short": "ELF",
             "stars": 1746,
             "tags": [
-                "Video game",
+                "Video Game",
                 "RTS",
                 "Arcade"
             ],
@@ -397,7 +397,7 @@
             "short": "LF2Gym",
             "stars": 46,
             "tags": [
-                "Video game"
+                "Video Game"
             ],
             "url": "https://github.com/elvisyjlin/lf2gym"
         }
