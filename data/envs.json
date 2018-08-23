@@ -111,8 +111,7 @@
             "short_descr": "Arcade",
             "stars": 503,
             "tags": [
-                "Arcade",
-                "Walking"
+                "Arcade"
             ],
             "url": "https://github.com/ntasfi/PyGame-Learning-Environment"
         },
@@ -426,7 +425,8 @@
             "stars": 145,
             "tags": [
                 "Robotics",
-                "Perception"
+                "Perception",
+                "Walking"
             ],
             "url": "https://github.com/StanfordVL/GibsonEnv"
         },
