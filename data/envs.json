@@ -6,7 +6,7 @@
             "name": "Control Suite",
             "num_agents": 1,
             "short": "Control",
-            "stars": 1065,
+            "stars": 1068,
             "tags": [
                 "Control",
                 "Robotics",
@@ -20,7 +20,7 @@
             "name": "Deep RTS",
             "num_agents": 1,
             "short": "RTS",
-            "stars": 20,
+            "stars": 29,
             "tags": [
                 "RTS"
             ],
@@ -32,7 +32,7 @@
             "name": "EnergyPy",
             "num_agents": 1,
             "short": "Energy",
-            "stars": 60,
+            "stars": 61,
             "tags": [
                 "Energy"
             ],
@@ -44,7 +44,7 @@
             "name": "Gym Gazebo",
             "num_agents": 1,
             "short": "ROS RL",
-            "stars": 368,
+            "stars": 370,
             "tags": [
                 "ROS",
                 "Robotics",
@@ -96,7 +96,7 @@
             "name": "OSim-RL",
             "num_agents": 1,
             "short": "Muscles",
-            "stars": 499,
+            "stars": 500,
             "tags": [
                 "Muscles",
                 "Walking"
@@ -109,7 +109,7 @@
             "name": "PyGame",
             "num_agents": 1,
             "short": "Arcade",
-            "stars": 502,
+            "stars": 503,
             "tags": [
                 "Arcade",
                 "Walking"
@@ -136,7 +136,7 @@
             "name": "Retro",
             "num_agents": 1,
             "short": "Arcade",
-            "stars": 1111,
+            "stars": 1114,
             "tags": [
                 "Arcade"
             ],
@@ -148,7 +148,7 @@
             "name": "Roboschool",
             "num_agents": 1,
             "short": "Robotics",
-            "stars": 1338,
+            "stars": 1339,
             "tags": [
                 "Robotics",
                 "Control"
@@ -161,7 +161,7 @@
             "name": "Stock Market RL",
             "num_agents": 1,
             "short": "Stock Market",
-            "stars": 466,
+            "stars": 467,
             "tags": [
                 "Stock Market",
                 "Finance"
@@ -174,7 +174,7 @@
             "name": "gym-super-mario",
             "num_agents": 1,
             "short": "Super Mario",
-            "stars": 144,
+            "stars": 146,
             "tags": [
                 "Arcade",
                 "Super Mario"
@@ -187,7 +187,7 @@
             "name": "TextWorld",
             "num_agents": 1,
             "short": "Text",
-            "stars": 257,
+            "stars": 261,
             "tags": [
                 "Text"
             ],
@@ -199,7 +199,7 @@
             "name": "VizDoom",
             "num_agents": 1,
             "short": "Doom",
-            "stars": 702,
+            "stars": 705,
             "tags": [
                 "Video Game",
                 "Doom"
@@ -225,7 +225,7 @@
             "name": "MAgent",
             "num_agents": 1000,
             "short": "Multi-agent",
-            "stars": 750,
+            "stars": 752,
             "tags": [
                 "Eco System",
                 "Competition"
@@ -250,7 +250,7 @@
             "name": "pysc2",
             "num_agents": 1,
             "short": "StarCraft II",
-            "stars": 4882,
+            "stars": 4886,
             "tags": [
                 "StarCraft",
                 "RTS",
@@ -261,16 +261,16 @@
         {
             "complexity": "high",
             "long": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft.",
-            "name": "Project Malmo",
+            "name": "Project Malm\u00f6",
             "num_agents": 1,
             "short": "Minecraft",
-            "stars": 4882,
+            "stars": 2968,
             "tags": [
                 "Minecraft",
                 "Open world",
                 "Video Game"
             ],
-            "url": "https://github.com/deepmind/pysc2"
+            "url": "https://github.com/Microsoft/malmo"
         },
         {
             "complexity": "high",
@@ -305,7 +305,7 @@
             "name": "Lab",
             "num_agents": 1,
             "short": "Quake III",
-            "stars": 5246,
+            "stars": 5250,
             "tags": [
                 "Quake",
                 "Engine"
@@ -318,7 +318,7 @@
             "name": "ML Agents",
             "num_agents": 1,
             "short": "Unity",
-            "stars": 3715,
+            "stars": 3731,
             "tags": [
                 "Unity",
                 "Engine"
