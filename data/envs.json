@@ -5,7 +5,7 @@
             "long": "Set of Python Reinforcement Learning environments powered by the MuJoCo physics engine.",
             "name": "Control Suite",
             "num_agents": 1,
-            "short": "Control",
+            "short_descr": "Control",
             "stars": 1068,
             "tags": [
                 "Control",
@@ -19,7 +19,7 @@
             "long": "A Real-Time-Strategy game for Deep Learning research.",
             "name": "Deep RTS",
             "num_agents": 1,
-            "short": "RTS",
+            "short_descr": "RTS",
             "stars": 29,
             "tags": [
                 "RTS"
@@ -31,7 +31,7 @@
             "long": "Supports running reinforcement learning experiments on energy environments.",
             "name": "EnergyPy",
             "num_agents": 1,
-            "short": "Energy",
+            "short_descr": "Energy",
             "stars": 61,
             "tags": [
                 "Energy"
@@ -43,7 +43,7 @@
             "long": "A toolkit for developing and comparing reinforcement learning algorithms using ROS and Gazebo.",
             "name": "Gym Gazebo",
             "num_agents": 1,
-            "short": "ROS RL",
+            "short_descr": "ROS RL",
             "stars": 370,
             "tags": [
                 "ROS",
@@ -57,7 +57,7 @@
             "long": "Simple 2D reinforcement learning environments to perform memory experiments.",
             "name": "Gym Memory",
             "num_agents": 1,
-            "short": "Memory",
+            "short_descr": "Memory",
             "stars": 5,
             "tags": [
                 "Memory",
@@ -70,7 +70,7 @@
             "long": "An OpenAI environment for developing aircraft flight control systems using reinforcement learning",
             "name": "GymFC",
             "num_agents": 1,
-            "short": "Airplane",
+            "short_descr": "Airplane",
             "stars": 13,
             "tags": [
                 "Control",
@@ -83,7 +83,7 @@
             "long": "OpenAI Gym No-Limit Texas Hold'em* (NLTH) environment written in Python.",
             "name": "Hold'em",
             "num_agents": 1,
-            "short": "Poker",
+            "short_descr": "Poker",
             "stars": 37,
             "tags": [
                 "Poker"
@@ -95,7 +95,7 @@
             "long": "Reinforcement learning environments with musculoskeletal model.",
             "name": "OSim-RL",
             "num_agents": 1,
-            "short": "Muscles",
+            "short_descr": "Muscles",
             "stars": 500,
             "tags": [
                 "Muscles",
@@ -108,7 +108,7 @@
             "long": "Learning environment, mimicking the Arcade Learning Environment interface.",
             "name": "PyGame",
             "num_agents": 1,
-            "short": "Arcade",
+            "short_descr": "Arcade",
             "stars": 503,
             "tags": [
                 "Arcade",
@@ -121,7 +121,7 @@
             "long": "Open-source implementation of the OpenAI Gym MuJoCo environments.",
             "name": "PyBullet gym",
             "num_agents": 1,
-            "short": "Control",
+            "short_descr": "Control",
             "stars": 81,
             "tags": [
                 "Control",
@@ -135,7 +135,7 @@
             "long": "Wrapper for video game emulator cores using the Libretro API.",
             "name": "Retro",
             "num_agents": 1,
-            "short": "Arcade",
+            "short_descr": "Arcade",
             "stars": 1114,
             "tags": [
                 "Arcade"
@@ -147,7 +147,7 @@
             "long": "Open-source software for robot simulation, integrated with OpenAI Gym.",
             "name": "Roboschool",
             "num_agents": 1,
-            "short": "Robotics",
+            "short_descr": "Robotics",
             "stars": 1339,
             "tags": [
                 "Robotics",
@@ -160,7 +160,7 @@
             "long": "General environment for stock market trading simulation using OpenAI Gym.",
             "name": "Stock Market RL",
             "num_agents": 1,
-            "short": "Stock Market",
+            "short_descr": "Stock Market",
             "stars": 467,
             "tags": [
                 "Stock Market",
@@ -173,7 +173,7 @@
             "long": "Gym - 32 levels of original Super Mario Bros.",
             "name": "gym-super-mario",
             "num_agents": 1,
-            "short": "Super Mario",
+            "short_descr": "Super Mario",
             "stars": 146,
             "tags": [
                 "Arcade",
@@ -186,7 +186,7 @@
             "long": "Sandbox for training and testing reinforcement learning (RL) agents on text-based games.",
             "name": "TextWorld",
             "num_agents": 1,
-            "short": "Text",
+            "short_descr": "Text",
             "stars": 261,
             "tags": [
                 "Text"
@@ -198,7 +198,7 @@
             "long": "Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information.",
             "name": "VizDoom",
             "num_agents": 1,
-            "short": "Doom",
+            "short_descr": "Doom",
             "stars": 705,
             "tags": [
                 "Video Game",
@@ -211,7 +211,7 @@
             "long": "An artificial life environment for testing reinforcement learning algorithms.",
             "name": "ALife",
             "num_agents": 20,
-            "short": "Eco system",
+            "short_descr": "Eco system",
             "stars": 7,
             "tags": [
                 "Eco System",
@@ -224,7 +224,7 @@
             "long": "MAgent is a research platform for many-agent reinforcement learning.",
             "name": "MAgent",
             "num_agents": 1000,
-            "short": "Multi-agent",
+            "short_descr": "Multi-agent",
             "stars": 752,
             "tags": [
                 "Eco System",
@@ -237,7 +237,7 @@
             "long": "Repository for competitive multi-agent environments.",
             "name": "Multiagent Competition",
             "num_agents": 2,
-            "short": "Competition",
+            "short_descr": "Competition",
             "stars": 450,
             "tags": [
                 "Competition"
@@ -249,7 +249,7 @@
             "long": "PySC2 is DeepMind's Python component of the StarCraft II Learning Environment (SC2LE).",
             "name": "pysc2",
             "num_agents": 1,
-            "short": "StarCraft II",
+            "short_descr": "StarCraft II",
             "stars": 4886,
             "tags": [
                 "StarCraft",
@@ -263,7 +263,7 @@
             "long": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft.",
             "name": "Project Malm\u00f6",
             "num_agents": 1,
-            "short": "Minecraft",
+            "short_descr": "Minecraft",
             "stars": 2968,
             "tags": [
                 "Minecraft",
@@ -277,7 +277,7 @@
             "long": "A bridge between Torch and StarCraft.",
             "name": "TorchCraft",
             "num_agents": 1,
-            "short": "StarCraft II",
+            "short_descr": "StarCraft II",
             "stars": 1136,
             "tags": [
                 "StarCraft",
@@ -291,7 +291,7 @@
             "long": "Integrates Unreal Engine with OpenAI Gym for visual reinforcement learning based on UnrealCV.",
             "name": "gym-unrealcv",
             "num_agents": 1,
-            "short": "Unreal Engine",
+            "short_descr": "Unreal Engine",
             "stars": 74,
             "tags": [
                 "Unreal Engine",
@@ -304,7 +304,7 @@
             "long": "A customisable 3D platform for agent-based AI research based on id Software's Quake III Arena via ioquake3.",
             "name": "Lab",
             "num_agents": 1,
-            "short": "Quake III",
+            "short_descr": "Quake III",
             "stars": 5251,
             "tags": [
                 "Quake",
@@ -317,7 +317,7 @@
             "long": "Open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.",
             "name": "ML Agents",
             "num_agents": 1,
-            "short": "Unity",
+            "short_descr": "Unity",
             "stars": 3731,
             "tags": [
                 "Unity",
@@ -330,7 +330,7 @@
             "long": "Unreal Engine 4 plugin that adds support for embedded Lua/Torch scripts in the game engine loop.",
             "name": "UE-Torch",
             "num_agents": 1,
-            "short": "Unreal Engine",
+            "short_descr": "Unreal Engine",
             "stars": 309,
             "tags": [
                 "Unreal Engine",
@@ -343,7 +343,7 @@
             "long": "Simulator for controlling drones, based on Unreal Engine",
             "name": "AirSim",
             "num_agents": 1,
-            "short": "AirSim",
+            "short_descr": "Simulator",
             "stars": 5582,
             "tags": [
                 "Simulator",
@@ -356,7 +356,7 @@
             "long": "Environment for playing Flash games",
             "name": "Flash Reinforcement Learning",
             "num_agents": 1,
-            "short": "FlashRL",
+            "short_descr": "Flash Games",
             "stars": 20,
             "tags": [
                 "Video Game"
@@ -368,7 +368,7 @@
             "long": "Environment for Toribash game with hand-to-hand humanoid combat.",
             "name": "Toribash Learning Environment",
             "num_agents": 2,
-            "short": "ToriLLE",
+            "short_descr": "Toribash",
             "stars": 16,
             "tags": [
                 "Video Game"
@@ -380,7 +380,7 @@
             "long": "Lightweight and fast environment for concurrent MiniRTS, Atari and Go games.",
             "name": "ELF",
             "num_agents": 1,
-            "short": "ELF",
+            "short_descr": "RTS Games",
             "stars": 1746,
             "tags": [
                 "Video Game",
@@ -394,7 +394,7 @@
             "long": "Environment for playing Little Fighter 2.",
             "name": "LF2Gym",
             "num_agents": 10,
-            "short": "LF2Gym",
+            "short_descr": "Litle Fighter 2",
             "stars": 46,
             "tags": [
                 "Video Game"

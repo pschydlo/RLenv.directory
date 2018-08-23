@@ -121,7 +121,7 @@ class App extends Component {
                   <div className="card-body">
                     <p><span>{env.stars}</span><i className="fas fa-star"></i></p>
                     <h5 className="card-title">{env.name} </h5>
-                    <h6 className="card-subtitle mb-2 text-muted">{env.short}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted">{env.short_descr}</h6>
                     <p className="card-text">{env.long}</p>
                     <p>
                     {env.tags.slice(0,2).map(tag =>
