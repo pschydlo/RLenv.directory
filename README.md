@@ -12,7 +12,7 @@ Datasets are a major force in the machine learning strategy. Processing capacity
 
 Learning environments are the datasets of reinforcement learning, they can be seen as simulations of real life processes, simple or complex. A key piece for progress in the field of reinforcement learning are new learning environments. 
 
-Our mission is to encourage the creation of new and more complex learning environments through making the discovery of new environments easy.
+Our mission is to encourage the creation of new and more complex learning environments by making their discovery easy.
 
 ## Contributing
 
