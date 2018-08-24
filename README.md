@@ -1,12 +1,11 @@
-[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-<img src="https://rlenv.directory/assets/images/brain.svg" alt="Logo" width="40px" height="40px">
-
-# RLenv.directory
-
-Find your perfect learning environment at: [RLenv.directory](http://rlenv.directory)
-
-Reinforcement Learning environments index hosted on github pages. Suggestions for additions via [pull request](http://makeapullrequest.com) welcome!
+<p align="center">
+  <img src="https://rlenv.directory/assets/images/logo.png" alt="Logo" width="256px" >
+  </br>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PR">
+  </br>
+  </br>
+  RLenv.directory allows you to explore and find exotic reinforcement learning environments. 
+</p
 
 ## Introduction
 
