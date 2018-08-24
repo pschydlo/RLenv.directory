@@ -1,17 +1,48 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll and Webpack boilerplate, created and maintained by [@allizad](https://github.com/allizad).
+<div class="center">
+<div style="width: 40%;">
+<div style="text-align: center;">
+  <img src="https://rlenv.directory/assets/images/logo.png" alt="Logo" width="256px" >
+  <br>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PR">
+  <br>
+  <br>
+<p>
 
-You can learn more about how this was put together in my walkthrough post here:
-- [Using Webpack and React with Jekyll](https://medium.com/allizad/)
+Datasets are a major force in the machine learning strategy. Processing capacity, algorithms and data define the evolution of the field.
+</p>
 
-See the full series of adding search to Jekyll, for which this project was a building block, here:
-- [Elasticsearch for Jekyll, Part 1](https://blog.omc.io/elasticsearch-for-jekyll-part-1-ab456ac7c093)
+<p>
 
-Thanks! Now go build shit!
+Learning environments are the datasets of reinforcement learning, they can be seen as simulations of real life processes, simple or complex. A key piece for progress in the field of reinforcement learning are new learning environments. 
 
-![cat-lappy-image](assets/images/cat-lappy.gif)
+</p>
+
+<p style="font-weight: bold;">
+Our mission is to encourage the creation of new and more complex learning environments by making their discovery easy.
+
+</p>
+
+<p >
+  RLenv.directory allows you to explore and find exotic reinforcement learning environments right from the comfort of your browser. 
+</p>
+
+<h3>
+Created with <i class="fas fa-heart"></i> by:
+</h3>
+
+<div class="github-icons">
+{% for user in site.github.contributors %}
+<a href="{{user.html_url}}"><img class="github-icon" src="{{user.avatar_url}}" width="80px"></a>
+{% endfor %}
+</div>
+
+</div>
+
+</div>
+</div>

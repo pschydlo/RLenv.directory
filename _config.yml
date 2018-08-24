@@ -18,3 +18,7 @@ github_username:  pschydlo
 markdown: kramdown
 
 include: ["data/envs_public.json","data/envs.json"]
+
+repository: pschydlo/RLenv.directory
+plugins:
+  - "jekyll-github-metadata"

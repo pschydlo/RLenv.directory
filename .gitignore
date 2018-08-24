@@ -6,3 +6,4 @@ node_modules
 src/assets/javascripts/bundle.js
 scripts/secret.py
 scripts/__pycache__
+Gemfile.lock
