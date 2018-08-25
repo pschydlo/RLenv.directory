@@ -7,3 +7,14 @@ src/assets/javascripts/bundle.js
 scripts/secret.py
 scripts/__pycache__
 Gemfile.lock
+
+site/_site
+site/.sass-cache
+site/.jekyll-metadata
+site/public
+site/node_modules
+site/src/assets/javascripts/bundle.js
+site/Gemfile.lock
+scripts/secret.py
+scripts/__pycache__
+

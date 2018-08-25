@@ -1,0 +1,91 @@
+
+.navbar{
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+  }
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.site-header{
+    background: linear-gradient(to bottom right,#106070,#1E646E);
+    color: white;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 0.2in;
+}
+
+header {
+    font-size: 0.2in;
+}
+
+header h1 {
+    font-size: 3em;   
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+     /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.main-section  {
+    padding-top: 2em;
+}
+
+.card{
+    width: 12em;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    padding: 1em;
+    margin: 0.5em;
+    float: left;
+    border-radius: 1em;
+}
+
+.card-text{
+    height: 6em;
+    overflow: hidden;
+}
+
+.label{
+    margin-left: 0.1em;
+}
+
+.btn{
+    margin: 0.05em;
+}
+
+.card h5{
+    height: 2em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-heart{
+    color:  #e60000;
+}
+
+.github-icons{
+    margin-bottom: 6em;
+}
+
+.github-icon{
+    border-radius: 50%;
+    margin: 0.5em;
+}
