@@ -5,7 +5,7 @@
     "Competition": 4,
     "Control": 6,
     "Doom": 1,
-    "Driving": 1,
+    "Driving": 2,
     "Eco System": 2,
     "Energy": 1,
     "Engine": 4,
@@ -15,7 +15,7 @@
     "Multi-agent": 4,
     "Muscles": 1,
     "Open world": 1,
-    "Perception": 1,
+    "Perception": 2,
     "Poker": 1,
     "Quake": 1,
     "ROS": 1,
@@ -29,6 +29,7 @@
     "Unity": 1,
     "Unreal Engine": 2,
     "Video Game": 8,
+    "Vision": 1,
     "Walking": 4,
     "Web": 1
 }

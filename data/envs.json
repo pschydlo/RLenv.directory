@@ -454,6 +454,20 @@
                 "Web"
             ],
             "url": "https://github.com/stanfordnlp/miniwob-plusplus"
+        },
+        {
+            "complexity": "high",
+            "long": "TORCS with OpenAI-gym-like interface",
+            "name": "Gym-TORCS",
+            "num_agents": 1,
+            "short_descr": "TORCS",
+            "stars": 259,
+            "tags": [
+                "Driving",
+                "Perception",
+                "Vision"
+            ],
+            "url": "https://github.com/ugo-nama-kun/gym_torcs"
         }
     ]
 }
