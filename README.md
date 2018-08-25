@@ -19,7 +19,7 @@ Our mission is to encourage the creation of new and more complex learning enviro
 All learning environments are stored in a easy to edit json file, steps for adding a new environment are:
 
 1. Forking the repository
-2. Adding the environment to "/data/envs.json"
+2. Adding the environment to "site/data/envs.json"
 3. Opening a pull request
 
 ## Bug Reports
