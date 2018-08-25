@@ -6,7 +6,7 @@
             "name": "Control Suite",
             "num_agents": 1,
             "short_descr": "Control",
-            "stars": 1068,
+            "stars": 1070,
             "tags": [
                 "Control",
                 "Robotics",
@@ -44,7 +44,7 @@
             "name": "Gym Gazebo",
             "num_agents": 1,
             "short_descr": "ROS RL",
-            "stars": 370,
+            "stars": 372,
             "tags": [
                 "ROS",
                 "Robotics",
@@ -96,7 +96,7 @@
             "name": "OSim-RL",
             "num_agents": 1,
             "short_descr": "Muscles",
-            "stars": 500,
+            "stars": 501,
             "tags": [
                 "Muscles",
                 "Walking"
@@ -109,7 +109,7 @@
             "name": "PyGame",
             "num_agents": 1,
             "short_descr": "Arcade",
-            "stars": 503,
+            "stars": 505,
             "tags": [
                 "Arcade"
             ],
@@ -135,7 +135,7 @@
             "name": "Retro",
             "num_agents": 1,
             "short_descr": "Arcade",
-            "stars": 1114,
+            "stars": 1118,
             "tags": [
                 "Arcade"
             ],
@@ -147,7 +147,7 @@
             "name": "Roboschool",
             "num_agents": 1,
             "short_descr": "Robotics",
-            "stars": 1339,
+            "stars": 1342,
             "tags": [
                 "Robotics",
                 "Control"
@@ -160,7 +160,7 @@
             "name": "Stock Market RL",
             "num_agents": 1,
             "short_descr": "Stock Market",
-            "stars": 467,
+            "stars": 468,
             "tags": [
                 "Stock Market",
                 "Finance"
@@ -173,7 +173,7 @@
             "name": "gym-super-mario",
             "num_agents": 1,
             "short_descr": "Super Mario",
-            "stars": 146,
+            "stars": 147,
             "tags": [
                 "Arcade",
                 "Super Mario"
@@ -186,7 +186,7 @@
             "name": "TextWorld",
             "num_agents": 1,
             "short_descr": "Text",
-            "stars": 261,
+            "stars": 268,
             "tags": [
                 "Text"
             ],
@@ -225,7 +225,7 @@
             "name": "MAgent",
             "num_agents": 1000,
             "short_descr": "Multi-agent",
-            "stars": 752,
+            "stars": 755,
             "tags": [
                 "Eco System",
                 "Competition",
@@ -239,7 +239,7 @@
             "name": "Multiagent Competition",
             "num_agents": 2,
             "short_descr": "Competition",
-            "stars": 450,
+            "stars": 452,
             "tags": [
                 "Competition",
                 "Multi-agent"
@@ -252,7 +252,7 @@
             "name": "pysc2",
             "num_agents": 1,
             "short_descr": "StarCraft II",
-            "stars": 4886,
+            "stars": 4893,
             "tags": [
                 "StarCraft",
                 "RTS",
@@ -294,7 +294,7 @@
             "name": "gym-unrealcv",
             "num_agents": 1,
             "short_descr": "Unreal Engine",
-            "stars": 74,
+            "stars": 76,
             "tags": [
                 "Unreal Engine",
                 "Engine"
@@ -307,7 +307,7 @@
             "name": "Lab",
             "num_agents": 1,
             "short_descr": "Quake III",
-            "stars": 5251,
+            "stars": 5256,
             "tags": [
                 "Quake",
                 "Engine"
@@ -320,7 +320,7 @@
             "name": "ML Agents",
             "num_agents": 1,
             "short_descr": "Unity",
-            "stars": 3731,
+            "stars": 3745,
             "tags": [
                 "Unity",
                 "Engine"
@@ -346,7 +346,7 @@
             "name": "AirSim",
             "num_agents": 1,
             "short_descr": "Simulator",
-            "stars": 5583,
+            "stars": 5592,
             "tags": [
                 "Simulator",
                 "Control"
@@ -383,7 +383,7 @@
             "name": "ELF",
             "num_agents": 1,
             "short_descr": "RTS Games",
-            "stars": 1746,
+            "stars": 1749,
             "tags": [
                 "Video Game",
                 "RTS",
@@ -409,7 +409,7 @@
             "name": "CARLA",
             "num_agents": 1,
             "short_descr": "Driving simulator",
-            "stars": 1621,
+            "stars": 1628,
             "tags": [
                 "Simulator",
                 "Driving"
