@@ -6,8 +6,8 @@ import requests
 # Store your github API access credentials here to protect them from the interwebz.
 import secret
 
-ENV_FILE = '../data/envs.json'
-ENV_OUT_FILE = '../data/envs.json'
+ENV_FILE = '../site/data/envs.json'
+ENV_OUT_FILE = '../site/data/envs.json'
 
 def fetch_stars(json):
     

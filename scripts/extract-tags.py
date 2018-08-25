@@ -1,8 +1,8 @@
 import json
 from pprint import pprint
 
-ENV_FILE = '../data/envs.json'
-TAG_FILE = '../data/tags.json'
+ENV_FILE = '../site/data/envs.json'
+TAG_FILE = '../site/data/tags.json'
 
 def extract_tags(json):
     tags = {}
