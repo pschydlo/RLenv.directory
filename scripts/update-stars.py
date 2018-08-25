@@ -1,7 +1,9 @@
 import json
 from pprint import pprint
-
+import sys
 import requests
+import collections
+from operator import itemgetter
 
 # Store your github API access credentials here to protect them from the interwebz.
 import secret
@@ -9,14 +11,11 @@ import secret
 ENV_FILE = '../site/data/envs.json'
 ENV_OUT_FILE = '../site/data/envs.json'
 
-def fetch_stars(json):
-    
-    
-    envs = json['envs']
-
+def fetch_stars(envs):
 
     for i in range(0, len(envs)):
         env = envs[i]
+        
         repo_url = env['url']
         
         if "github.com" not in repo_url:
@@ -33,21 +32,49 @@ def fetch_stars(json):
         repo_info = requests.get(url)
         repo_info = repo_info.json()
 
-        envs[i]['stars'] = repo_info['stargazers_count']
+        envs[i]['stars'] = repo_info['stargazers_count'] 
+        sys.stdout.write('.')
+        sys.stdout.flush()
 
-    out = {}
-    out['envs'] = envs
-
-    return out
+    print(" ")
+    return envs
 
 def save_env(envs, ENV_OUT_FILE):
     with open(ENV_OUT_FILE, 'w') as fp:
-        json.dump(envs, fp, sort_keys=True, indent=4)
+        json.dump(envs, fp, indent=4)
+
+def order_dict_keys(envs):
+    ordered_envs = []
+    
+    for env in envs:
+        ordered_env = [('name', env['name']), 
+                       ('url', env['url']),
+                       ('short_descr', env['short_descr']),
+                       ('long_descr', env['long_descr']),
+                       ('stars', env['stars']),
+                       ('num_agents', env['num_agents']),
+                       ('complexity', env['complexity']),
+                       ('tags', env['tags'])]
+        
+        ordered_env = collections.OrderedDict(ordered_env)
+        ordered_envs.append(ordered_env)
+    
+    return ordered_envs
 
 
 with open(ENV_FILE) as f:
     data = json.load(f)
 
-    data = fetch_stars(data)
+    envs = data['envs']
+
+    # Iterate through environments and get updated star count from github
+    envs = fetch_stars(envs)
     
-    save_env(data, ENV_OUT_FILE)
+    # Sort by environment name and define attribute order
+    envs = sorted(envs, key=itemgetter('name')) 
+    envs = order_dict_keys(envs)
+    
+    data_out = {}
+    data_out['envs'] = envs
+    
+    save_env(data_out, ENV_OUT_FILE)

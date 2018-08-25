@@ -19,6 +19,7 @@ class App extends Component {
     this.filterChange = this.filterChange.bind(this)
   }
 
+  // Fetch environments
   componentDidMount() {
     fetch(DATA_ENDPOINT)
       .then(response => response.json())
@@ -29,6 +30,7 @@ class App extends Component {
         tags: this.state.tags
       }));
 
+    // Fetch tags 
     fetch(TAG_ENDPOINT)
     .then(response => response.json())
     .then(data => {
@@ -122,7 +124,7 @@ class App extends Component {
                     <p><span>{env.stars}</span><i className="fas fa-star"></i></p>
                     <h5 className="card-title">{env.name} </h5>
                     <h6 className="card-subtitle mb-2 text-muted">{env.short_descr}</h6>
-                    <p className="card-text">{env.long}</p>
+                    <p className="card-text">{env.long_descr}</p>
                     <p>
                     {env.tags.slice(0,2).map(tag =>
                       <div className="label label-success">{tag}</div>
