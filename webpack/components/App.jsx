@@ -1,4 +1,5 @@
 import ControlPanel from './ControlPanel';
+import TagPanel from './TagPanel';
 import Results from './Results';
 import React, { Component } from 'react';
 
@@ -13,10 +14,13 @@ class App extends Component {
       loading: true,
       envs: [],
       filtered_envs: [],
-      tags: []
+      tags: [],
+      filter_opt: {}
     };
 
     this.filterChange = this.filterChange.bind(this)
+    this.sortEnvs = this.sortEnvs.bind(this)
+    this.updateSortFn = this.updateSortFn.bind(this)
   }
 
   // Fetch environments
@@ -42,21 +46,38 @@ class App extends Component {
     )
   }
 
-  filterChange(filter_opt){
+  filterChange(new_filter_opt){
+
+    var filter_opt = this.state.filter_opt 
+
+    for (var key in new_filter_opt){
+      filter_opt[key] = new_filter_opt[key]
+    }
+
+    console.log(filter_opt)
 
     var envs = this.state.envs
     var filtered_envs = this.filterFn(envs, filter_opt)
   
     this.setState({
       filtered_envs: filtered_envs,
-      envs: this.state.envs,
-      loading: this.state.loading, 
-      tags: this.state.tags
+      filter_opt: filter_opt
     })
+  }
 
-    Object.keys(this.state.tags).forEach( key => { 
-      console.log(key)
+  updateSortFn(sortFn){
+    this.setState({
+      sortFn: sortFn
     })
+  }
+
+  sortEnvs(sortFn){
+    if (!('sortFn' in this.state)) return this.state.filtered_envs
+
+    var filtered_envs = this.state.filtered_envs
+    filtered_envs.sort(this.state.sortFn)
+
+    return filtered_envs
   }
 
   filterFn(envs, filter_opt){
@@ -65,54 +86,60 @@ class App extends Component {
     for (var i = 0; i < envs.length; i++) {
       var env = envs[i]
 
-      // Check if complexity option is set and if environment complexity has this value
-      if (filter_opt.complexity != null && env.complexity != filter_opt.complexity){
-        continue      
-      }
-  
-      // Check if agents option is set and if number of agents is equal to number or larger than 3 if option is larger than 3
-      if (filter_opt.agents != null && ((filter_opt.agents != 3 && env.num_agents != filter_opt.agents) || (filter_opt.agents == 3 && env.num_agents < 3) )){
-        continue
-      }
-
-      if(filter_opt.tags != []){
-        var present = true
-
-        for(var j=0; j< filter_opt.tags.length; j++){
-          // Check if the tag is present in the environment
-          var curr_tag = filter_opt.tags[j]
-          
-          console.log(env.tags)
-          console.log(curr_tag)
-
-          if (env.tags.indexOf(curr_tag) == -1){
-            present = false
-            break
-          }
-        }
-        
-        if (present == false){
-          continue
-        }
-      }
-      
-
+      if (!this.checkEnv(env, filter_opt)) continue
+     
       filtered_envs.push(env)
     }
 
     return filtered_envs
   }
 
+  checkEnv(env, filter_opt){
+    
+    for(var key in filter_opt){
+      switch(key){
+        case("complexity"):
+          if (env.complexity != filter_opt[key]) return false
+          break
+
+        case("agents"):
+          if ((filter_opt[key] != 3 && env.num_agents != filter_opt[key]) || (filter_opt[key] == 3 && env.num_agents < 3) ) return false
+          break
+        
+        case("tags"):
+          var present = true
+
+          for(var j=0; j< filter_opt[key].length; j++){
+            // Check if the tag is present in the environment
+            var curr_tag = filter_opt[key][j]
+  
+            if (env.tags.indexOf(curr_tag) == -1){
+              present = false
+              break
+            }
+          }
+          
+          if (present == false){
+            return false
+          }
+          break
+      }
+    }
+
+    return true
+  }
+
   render() {
 
-    const envs = this.state.filtered_envs;
+    const envs = this.sortEnvs(this.state.filtered_envs);
 
     return (
       <div>
         <aside className="col-md-3">
-            <ControlPanel tags={this.state.tags} onUpdate={this.filterChange}/>
+            <TagPanel tags={this.state.tags} onUpdate={this.filterChange}/>
         </aside>
         <main className="col-md-9">
+            <ControlPanel onSort={this.updateSortFn} onUpdate={this.filterChange}/>
             
             { this.state.loading ? (
             <div>loading</div>

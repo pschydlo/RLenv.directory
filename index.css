@@ -97,3 +97,8 @@ h3{
 .fa-star{
     margin-left: 0.3em;
 }
+
+.dropdown-toggle{
+    margin-right: 0.3em;
+    margin-bottom: 0.6em;
+}
