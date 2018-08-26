@@ -1,4 +1,3 @@
-import TagButton from './TagButton';
 import DropBot from './DropBot';
 import React, { Component } from 'react';
 
@@ -7,40 +6,17 @@ class ControlPanel extends Component {
     super(props);
 
     this.state = {
-      filter_opt: { 
-        tags: [],
-        complexity: null,
-        agents: null
-      }
+      filter_opt: {}
     };
 
-    this.tagToggle = this.tagToggle.bind(this);
     this.complexitySelect = this.complexitySelect.bind(this);
     this.agentsSelect = this.agentsSelect.bind(this);
-  }
-
-  tagToggle(tag){
-
-    var tags = this.state.filter_opt.tags
-    if ((tags.indexOf(tag) > -1)) {
-      tags = tags.filter(e => e !== tag);
-    }else{
-      tags.push(tag)
-    }
-    
-    var filter_opt = this.state.filter_opt
-    filter_opt.tags = tags
-    
-    this.setState({
-      filter_opt: filter_opt
-    })
-
-    this.props.onUpdate(filter_opt)
+    this.sortSelect = this.sortSelect.bind(this);
   }
 
   complexitySelect(level){
     var filter_opt = this.state.filter_opt
-    filter_opt.complexity = level.toLowerCase()
+    filter_opt['complexity'] = level.toLowerCase()
 
     this.setState({
       filter_opt: filter_opt
@@ -53,7 +29,7 @@ class ControlPanel extends Component {
     var num = parseInt(num[0])
 
     var filter_opt = this.state.filter_opt
-    filter_opt.agents = num
+    filter_opt['agents'] = num
 
     this.setState({
       filter_opt: filter_opt
@@ -62,26 +38,32 @@ class ControlPanel extends Component {
     this.props.onUpdate(filter_opt)
   }
 
-  render() {
-    var tags = this.props.tags
+  sortFunc(attribute, order){
+    return function(a,b) {
+      return (a[attribute] > b[attribute]) ? 1*order : ((b[attribute] > a[attribute]) ? -1*order : 0);
+    }
+  }
 
+  sortSelect(sort){
+    var sort_dict = {"Stars asc.": this.sortFunc("stars", 1), 
+                     "Stars desc.": this.sortFunc("stars", -1), 
+                     "Name asc.": this.sortFunc("name", 1),
+                     "Name desc.": this.sortFunc("name", -1)}
+    
+    this.props.onSort(sort_dict[sort])
+  }
+
+  render() {
     return (
       <div>
-      <h2>Filter</h2>
+      
+      <DropBot onSelect={this.sortSelect} options={["Stars asc.", "Stars desc.", "Name asc.", "Name desc."]} text="Sort"/>
        
-       <h3>Nº Agents</h3>
-       
-       <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+"]} text="Agents"/>
+      <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+"]} text="Agents"/>
 
-       <h3>Complexity</h3>
-       
-       <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High"]} text="Complexity"/>
+      <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High"]} text="Complexity"/>
 
-       <h3>Tag</h3>
 
-      {Object.keys(tags).map( tag => 
-      <TagButton onToggle={this.tagToggle} tagName={tag} tagCount={tags[tag]}/>
-      )}
 
       </div> 
     )
