@@ -28,11 +28,24 @@
             ]
         },
         {
+            "name": "Azkaban",
+            "url": "https://github.com/laplab/azkaban",
+            "short_descr": "Cooperation",
+            "long_descr": "Learning communicative and cooperative strategies in multi-agent decision processes.",
+            "stars": 1,
+            "num_agents": 10,
+            "complexity": "medium",
+            "tags": [
+                "Multi-agent",
+                "Cooperation"
+            ]
+        },
+        {
             "name": "CARLA",
             "url": "https://github.com/carla-simulator/carla",
             "short_descr": "Driving simulator",
             "long_descr": "Open-source simulator for autonomous driving research.",
-            "stars": 1629,
+            "stars": 1630,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -82,11 +95,25 @@
             ]
         },
         {
+            "name": "Domination-Game",
+            "url": "https://github.com/noio/Domination-Game",
+            "short_descr": "Team Competition",
+            "long_descr": "Competitive multi-agent game simulation environment.",
+            "stars": 11,
+            "num_agents": 10,
+            "complexity": "high",
+            "tags": [
+                "Multi-agent",
+                "Cooperation",
+                "Competition"
+            ]
+        },
+        {
             "name": "ELF",
             "url": "https://github.com/facebookresearch/ELF",
             "short_descr": "RTS Games",
             "long_descr": "Lightweight and fast environment for concurrent MiniRTS, Atari and Go games.",
-            "stars": 1749,
+            "stars": 1748,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -131,6 +158,19 @@
                 "Robotics",
                 "Vision",
                 "Walking"
+            ]
+        },
+        {
+            "name": "Golds-rl-gym",
+            "url": "https://github.com/allentran/golds-rl-gym",
+            "short_descr": "Multi-agent",
+            "long_descr": "Learning to stop a swarm of locusts from rolling.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Multi-agent",
+                "Cooperation"
             ]
         },
         {
@@ -187,6 +227,18 @@
             ]
         },
         {
+            "name": "Gym-BSS",
+            "url": "https://github.com/bhatiaabhinav/gym-BSS",
+            "short_descr": "Logistics",
+            "long_descr": "Bike Sharing System gym (openai) RL environment.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Logistics"
+            ]
+        },
+        {
             "name": "Gym-TORCS",
             "url": "https://github.com/ugo-nama-kun/gym_torcs",
             "short_descr": "TORCS",
@@ -197,6 +249,20 @@
             "tags": [
                 "Driving",
                 "Vision"
+            ]
+        },
+        {
+            "name": "Gym-maze",
+            "url": "https://github.com/zuoxingdong/gym-maze",
+            "short_descr": "Maze",
+            "long_descr": " A customizable gym environment for maze/gridworld.",
+            "stars": 99,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "2D",
+                "Maze",
+                "Framework"
             ]
         },
         {
@@ -241,7 +307,7 @@
             "url": "https://github.com/deepmind/lab",
             "short_descr": "Quake III",
             "long_descr": "A customisable 3D platform for agent-based AI research based on id Software's Quake III Arena via ioquake3.",
-            "stars": 5256,
+            "stars": 5257,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -267,7 +333,7 @@
             "url": "https://github.com/geek-ai/MAgent",
             "short_descr": "Multi-agent",
             "long_descr": "MAgent is a research platform for many-agent reinforcement learning.",
-            "stars": 755,
+            "stars": 756,
             "num_agents": 1000,
             "complexity": "medium",
             "tags": [
@@ -281,7 +347,7 @@
             "url": "https://github.com/Unity-Technologies/ml-agents",
             "short_descr": "Unity",
             "long_descr": "Open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.",
-            "stars": 3745,
+            "stars": 3744,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -312,6 +378,18 @@
             "tags": [
                 "Competition",
                 "Multi-agent"
+            ]
+        },
+        {
+            "name": "Multiworld",
+            "url": "https://github.com/vitchyr/multiworld",
+            "short_descr": "Multitask",
+            "long_descr": "Multitask Environments for RL.",
+            "stars": 20,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Multi-task"
             ]
         },
         {
@@ -372,7 +450,7 @@
             "url": "https://github.com/deepmind/pysc2",
             "short_descr": "StarCraft II",
             "long_descr": "PySC2 is DeepMind's Python component of the StarCraft II Learning Environment (SC2LE).",
-            "stars": 4895,
+            "stars": 4894,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -386,7 +464,7 @@
             "url": "https://github.com/openai/retro",
             "short_descr": "Arcade",
             "long_descr": "Wrapper for video game emulator cores using the Libretro API.",
-            "stars": 1120,
+            "stars": 1122,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -404,6 +482,19 @@
             "tags": [
                 "Robotics",
                 "Control"
+            ]
+        },
+        {
+            "name": "Robotiq-UR5",
+            "url": "https://github.com/cxy1997/Robotiq-UR5",
+            "short_descr": "Robotics",
+            "long_descr": "Simulator of UR5 robotic arm with Roboriq gripper, built with MuJoCo.",
+            "stars": 12,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Robotics",
+                "Grasping"
             ]
         },
         {
@@ -437,7 +528,7 @@
             "url": "https://github.com/Microsoft/TextWorld",
             "short_descr": "Text",
             "long_descr": "Sandbox for training and testing reinforcement learning (RL) agents on text-based games.",
-            "stars": 268,
+            "stars": 269,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -449,7 +540,7 @@
             "url": "https://github.com/TorchCraft/TorchCraft",
             "short_descr": "StarCraft II",
             "long_descr": "A bridge between Torch and StarCraft.",
-            "stars": 1136,
+            "stars": 1137,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -488,7 +579,7 @@
             "url": "https://github.com/mwydmuch/ViZDoom",
             "short_descr": "Doom",
             "long_descr": "Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information.",
-            "stars": 705,
+            "stars": 706,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
