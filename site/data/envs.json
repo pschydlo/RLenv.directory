@@ -10,7 +10,8 @@
             "complexity": "high",
             "tags": [
                 "Vision",
-                "Navigation"
+                "Navigation",
+                "3D"
             ]
         },
         {
@@ -70,7 +71,7 @@
             "url": "https://github.com/carla-simulator/carla",
             "short_descr": "Driving simulator",
             "long_descr": "Open-source simulator for autonomous driving research.",
-            "stars": 1633,
+            "stars": 1634,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -83,7 +84,7 @@
             "url": "https://github.com/deepmind/dm_control",
             "short_descr": "Control",
             "long_descr": "Set of Python Reinforcement Learning environments powered by the MuJoCo physics engine.",
-            "stars": 1070,
+            "stars": 1072,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -182,7 +183,8 @@
             "tags": [
                 "Robotics",
                 "Vision",
-                "Walking"
+                "Walking",
+                "3D"
             ]
         },
         {
@@ -299,7 +301,8 @@
             "complexity": "high",
             "tags": [
                 "Driving",
-                "Vision"
+                "Vision",
+                "3D"
             ]
         },
         {
@@ -330,6 +333,21 @@
             ]
         },
         {
+            "name": "HoME",
+            "url": "https://github.com/HoME-Platform/home-platform",
+            "short_descr": "Navigation",
+            "long_descr": "Platform for artificial agents to learn from vision, audio, semantics, physics, and interaction with objects and other agents, all within a realistic context.",
+            "stars": 329,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Vision",
+                "Navigation",
+                "Robotics",
+                "3D"
+            ]
+        },
+        {
             "name": "Hold'em",
             "url": "https://github.com/wenkesj/holdem",
             "short_descr": "Poker",
@@ -339,6 +357,21 @@
             "complexity": "medium",
             "tags": [
                 "Poker"
+            ]
+        },
+        {
+            "name": "House3D",
+            "url": "https://github.com/facebookresearch/House3D",
+            "short_descr": "Navigation",
+            "long_descr": "Realistic and Rich 3D Environment.",
+            "stars": 699,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Vision",
+                "Navigation",
+                "Robotics",
+                "3D"
             ]
         },
         {
@@ -394,11 +427,26 @@
             ]
         },
         {
+            "name": "MINOS",
+            "url": "https://github.com/minosworld/minos",
+            "short_descr": "Navigation",
+            "long_descr": "Multisensory models for goal-directed navigation in complex indoor environments.",
+            "stars": 100,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Vision",
+                "Navigation",
+                "Robotics",
+                "3D"
+            ]
+        },
+        {
             "name": "ML Agents",
             "url": "https://github.com/Unity-Technologies/ml-agents",
             "short_descr": "Unity",
             "long_descr": "Open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.",
-            "stars": 3750,
+            "stars": 3752,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -457,6 +505,19 @@
             ]
         },
         {
+            "name": "Playground",
+            "url": "https://github.com/MultiAgentLearning/playground",
+            "short_descr": "Bomberman",
+            "long_descr": "AI Research into Multi-Agent Learning.",
+            "stars": 318,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tags": [
+                "Multi-agent",
+                "Arcade"
+            ]
+        },
+        {
             "name": "Project Malm\u00f6",
             "url": "https://github.com/Microsoft/malmo",
             "short_descr": "Minecraft",
@@ -501,7 +562,7 @@
             "url": "https://github.com/deepmind/pysc2",
             "short_descr": "StarCraft II",
             "long_descr": "PySC2 is DeepMind's Python component of the StarCraft II Learning Environment (SC2LE).",
-            "stars": 4900,
+            "stars": 4899,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -660,7 +721,8 @@
             "complexity": "high",
             "tags": [
                 "Video Game",
-                "Doom"
+                "Doom",
+                "3D"
             ]
         }
     ]
