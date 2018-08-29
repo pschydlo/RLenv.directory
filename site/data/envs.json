@@ -635,6 +635,19 @@
             ]
         },
         {
+            "name": "Serpent.AI",
+            "url": "https://github.com/SerpentAI/SerpentAI",
+            "short_descr": "Framework",
+            "long_descr": "Serpent.AI is a simple yet powerful, novel framework to assist developers in the creation of game agents.",
+            "stars": 4540,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Framework",
+                "Video Game"
+            ]
+        },
+        {
             "name": "Stock Market RL",
             "url": "https://github.com/kh-kim/stock_market_reinforcement_learning",
             "short_descr": "Stock Market",
