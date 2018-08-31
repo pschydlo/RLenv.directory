@@ -7,12 +7,15 @@
   RLenv.directory allows you to explore and find exotic reinforcement learning environments. 
 </p
 
-
-Datasets are a major force in the machine learning strategy. Processing capacity, algorithms and data define the evolution of the field.
-
-Learning environments are the datasets of reinforcement learning, they can be seen as simulations of real life processes, simple or complex. A key piece for progress in the field of reinforcement learning are new learning environments. 
+Learning environments are the datasets of reinforcement learning, a key piece for progress in the field.
 
 Our mission is to encourage the creation of new and more complex learning environments by making their discovery easy.
+
+## Features
+
+- Filter environments by descriptive tags
+- Order by number of Github stars
+- Filter by complexity and number of agents
 
 ## Contributing
 
