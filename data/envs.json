@@ -5,7 +5,7 @@
             "url": "https://github.com/allenai/ai2thor",
             "short_descr": "Navigation",
             "long_descr": "Photo-realistic interactable framework for AI agents.",
-            "stars": 194,
+            "stars": 196,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -29,11 +29,25 @@
             ]
         },
         {
+            "name": "AirGym",
+            "url": "https://github.com/Kjell-K/AirGym",
+            "short_descr": "Quadcopter",
+            "long_descr": "AirSim with openAI gym and keras-rl integration for autonomous copter RL.",
+            "stars": 30,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Quadcopter",
+                "Simulator",
+                "Unreal Engine"
+            ]
+        },
+        {
             "name": "AirSim",
             "url": "https://github.com/Microsoft/AirSim",
             "short_descr": "Simulator",
             "long_descr": "Simulator for controlling drones, based on Unreal Engine",
-            "stars": 5597,
+            "stars": 5626,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -71,7 +85,7 @@
             "url": "https://github.com/carla-simulator/carla",
             "short_descr": "Driving simulator",
             "long_descr": "Open-source simulator for autonomous driving research.",
-            "stars": 1634,
+            "stars": 1644,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -84,7 +98,7 @@
             "url": "https://github.com/deepmind/dm_control",
             "short_descr": "Control",
             "long_descr": "Set of Python Reinforcement Learning environments powered by the MuJoCo physics engine.",
-            "stars": 1072,
+            "stars": 1077,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -98,7 +112,7 @@
             "url": "https://github.com/cair/deep-rts",
             "short_descr": "RTS",
             "long_descr": "A Real-Time-Strategy game for Deep Learning research.",
-            "stars": 30,
+            "stars": 31,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -139,7 +153,7 @@
             "url": "https://github.com/facebookresearch/ELF",
             "short_descr": "RTS Games",
             "long_descr": "Lightweight and fast environment for concurrent MiniRTS, Atari and Go games.",
-            "stars": 1750,
+            "stars": 1753,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -158,6 +172,19 @@
             "complexity": "medium",
             "tags": [
                 "Energy"
+            ]
+        },
+        {
+            "name": "Factory RL Gazebo",
+            "url": "https://github.com/MLCS-Yonsei/Factory_RL_Gazebo",
+            "short_descr": "Factory",
+            "long_descr": "Youbot Reinforcement Learning in Factory environment",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "ROS",
+                "Robotics"
             ]
         },
         {
@@ -215,6 +242,16 @@
             ]
         },
         {
+            "name": "Gym Gomoku Environment",
+            "url": "https://github.com/geronest/gym_gomoku_shson",
+            "short_descr": "Gomoku",
+            "long_descr": "OpenAI Gym Env for game Gomoku(Five-In-a-Row, \u4e94\u5b50\u68cb, \u4e94\u76ee\u4e26\u3079, omok, Gobang,...).",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": []
+        },
+        {
             "name": "Gym Memory",
             "url": "https://github.com/maximecb/gym-memory",
             "short_descr": "Memory",
@@ -225,6 +262,31 @@
             "tags": [
                 "Memory",
                 "2D"
+            ]
+        },
+        {
+            "name": "Gym Music",
+            "url": "https://github.com/calclavia/gym-music",
+            "short_descr": "Music",
+            "long_descr": "An implementation of music theory reinforcement learning rewards based on Magent's RL Tuner.",
+            "stars": 3,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Music"
+            ]
+        },
+        {
+            "name": "Gym Office",
+            "url": "https://github.com/dibyaghosh/gym_vision",
+            "short_descr": "Temperature Control",
+            "long_descr": "Office control with RL and gym framework.",
+            "stars": 1,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Control",
+                "Logistics"
             ]
         },
         {
@@ -254,11 +316,24 @@
             ]
         },
         {
+            "name": "Gym Vision",
+            "url": "https://github.com/dibyaghosh/gym_vision",
+            "short_descr": "Vision",
+            "long_descr": "A collection of continuous control tasks with vision in the Gym framework.",
+            "stars": 1,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "2D",
+                "Vision"
+            ]
+        },
+        {
             "name": "Gym-BSS",
             "url": "https://github.com/bhatiaabhinav/gym-BSS",
             "short_descr": "Logistics",
             "long_descr": "Bike Sharing System gym (openai) RL environment.",
-            "stars": 0,
+            "stars": 1,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -270,7 +345,7 @@
             "url": "https://github.com/bhatiaabhinav/gym-ERSLE",
             "short_descr": "Logistics",
             "long_descr": "Emergency Response System (ERS) (Ambualance allocation problem) simualtor gym environment.",
-            "stars": 0,
+            "stars": 1,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -310,7 +385,7 @@
             "url": "https://github.com/zuoxingdong/gym-maze",
             "short_descr": "Maze",
             "long_descr": " A customizable gym environment for maze/gridworld.",
-            "stars": 99,
+            "stars": 98,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -324,12 +399,24 @@
             "url": "https://github.com/wil3/gymfc",
             "short_descr": "Airplane",
             "long_descr": "An OpenAI environment for developing aircraft flight control systems using reinforcement learning",
-            "stars": 13,
+            "stars": 15,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
                 "Control",
                 "Airplane"
+            ]
+        },
+        {
+            "name": "HighwaySim",
+            "url": "https://github.com/tall-josh/HighwaySim",
+            "short_descr": "Driving",
+            "long_descr": "Little simulator to gather data for training driving agents.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Driving"
             ]
         },
         {
@@ -352,7 +439,7 @@
             "url": "https://github.com/wenkesj/holdem",
             "short_descr": "Poker",
             "long_descr": "OpenAI Gym No-Limit Texas Hold'em* (NLTH) environment written in Python.",
-            "stars": 37,
+            "stars": 38,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -364,7 +451,7 @@
             "url": "https://github.com/facebookresearch/House3D",
             "short_descr": "Navigation",
             "long_descr": "Realistic and Rich 3D Environment.",
-            "stars": 699,
+            "stars": 701,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -391,7 +478,7 @@
             "url": "https://github.com/deepmind/lab",
             "short_descr": "Quake III",
             "long_descr": "A customisable 3D platform for agent-based AI research based on id Software's Quake III Arena via ioquake3.",
-            "stars": 5260,
+            "stars": 5270,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -404,7 +491,7 @@
             "url": "https://github.com/sisl/MADRL",
             "short_descr": "Multi-agent",
             "long_descr": "Multi-agent reinforcement learning environemnts.",
-            "stars": 99,
+            "stars": 102,
             "num_agents": 2,
             "complexity": "medium",
             "tags": [
@@ -417,7 +504,7 @@
             "url": "https://github.com/geek-ai/MAgent",
             "short_descr": "Multi-agent",
             "long_descr": "MAgent is a research platform for many-agent reinforcement learning.",
-            "stars": 757,
+            "stars": 762,
             "num_agents": 1000,
             "complexity": "medium",
             "tags": [
@@ -446,12 +533,27 @@
             "url": "https://github.com/Unity-Technologies/ml-agents",
             "short_descr": "Unity",
             "long_descr": "Open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.",
-            "stars": 3752,
+            "stars": 3780,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
                 "Unity",
                 "Engine"
+            ]
+        },
+        {
+            "name": "Matterport3D",
+            "url": "https://github.com/peteanderson80/Matterport3DSimulator",
+            "short_descr": "Navigation",
+            "long_descr": "Development of AI agents that interact with real 3D environments using visual information (RGB-D images).",
+            "stars": 73,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Vision",
+                "Navigation",
+                "Robotics",
+                "3D"
             ]
         },
         {
@@ -471,7 +573,7 @@
             "url": "https://github.com/openai/multiagent-competition",
             "short_descr": "Competition",
             "long_descr": "Repository for competitive multi-agent environments.",
-            "stars": 453,
+            "stars": 457,
             "num_agents": 2,
             "complexity": "medium",
             "tags": [
@@ -496,7 +598,7 @@
             "url": "https://github.com/stanfordnmbl/osim-rl",
             "short_descr": "Muscles",
             "long_descr": "Reinforcement learning environments with musculoskeletal model.",
-            "stars": 502,
+            "stars": 506,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -505,11 +607,25 @@
             ]
         },
         {
+            "name": "OpenAI Gym Berkeley-Pacman",
+            "url": "https://github.com/sohamghosh121/PacmanGym",
+            "short_descr": "Pacman",
+            "long_descr": "Open AI Gym version of Berkeley AI Pacman with images as states.",
+            "stars": 4,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Arcade",
+                "Pacman",
+                "2D"
+            ]
+        },
+        {
             "name": "Playground",
             "url": "https://github.com/MultiAgentLearning/playground",
             "short_descr": "Bomberman",
             "long_descr": "AI Research into Multi-Agent Learning.",
-            "stars": 318,
+            "stars": 321,
             "num_agents": 4,
             "complexity": "medium",
             "tags": [
@@ -522,7 +638,7 @@
             "url": "https://github.com/Microsoft/malmo",
             "short_descr": "Minecraft",
             "long_descr": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft.",
-            "stars": 2969,
+            "stars": 2975,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -536,7 +652,7 @@
             "url": "https://github.com/benelot/pybullet-gym",
             "short_descr": "Control",
             "long_descr": "Open-source implementation of the OpenAI Gym MuJoCo environments.",
-            "stars": 81,
+            "stars": 82,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -562,7 +678,7 @@
             "url": "https://github.com/deepmind/pysc2",
             "short_descr": "StarCraft II",
             "long_descr": "PySC2 is DeepMind's Python component of the StarCraft II Learning Environment (SC2LE).",
-            "stars": 4899,
+            "stars": 4911,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -589,7 +705,7 @@
             "url": "https://github.com/wassname/rl-portfolio-management",
             "short_descr": "Finance",
             "long_descr": "Environment for portfolio management.",
-            "stars": 261,
+            "stars": 262,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -597,11 +713,23 @@
             ]
         },
         {
+            "name": "RL aqs",
+            "url": "https://github.com/dahlem/rl-aqs",
+            "short_descr": "Task Assignment",
+            "long_descr": "Implementation of a high-performance queuing simulator for adaptive task assignment problems",
+            "stars": 2,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Logistics"
+            ]
+        },
+        {
             "name": "Retro",
             "url": "https://github.com/openai/retro",
             "short_descr": "Arcade",
             "long_descr": "Wrapper for video game emulator cores using the Libretro API.",
-            "stars": 1129,
+            "stars": 1139,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -613,11 +741,37 @@
             "url": "https://github.com/openai/roboschool",
             "short_descr": "Robotics",
             "long_descr": "Open-source software for robot simulation, integrated with OpenAI Gym.",
-            "stars": 1343,
+            "stars": 1351,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
                 "Robotics",
+                "Control"
+            ]
+        },
+        {
+            "name": "Robot Learning Gym",
+            "url": "https://github.com/ashwinreddy/rlg",
+            "short_descr": "Robotics",
+            "long_descr": "Tool to test reinforcement learning algorithms for robotics tasks.",
+            "stars": 3,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Robotics",
+                "Grasping",
+                "Walking"
+            ]
+        },
+        {
+            "name": "Robot Learning Gym",
+            "url": "https://github.com/BlackHC/mdp",
+            "short_descr": "MDP",
+            "long_descr": "Make it easy to specify simple MDPs that are compatible with the OpenAI Gym.",
+            "stars": 8,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
                 "Control"
             ]
         },
@@ -635,11 +789,24 @@
             ]
         },
         {
+            "name": "Self Driving Sim Gym",
+            "url": "https://github.com/monicaMRL/self-driving-sim-gym",
+            "short_descr": "Driving",
+            "long_descr": "OpenAI gym style self-driving car simulator.",
+            "stars": 1,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Driving",
+                "2D"
+            ]
+        },
+        {
             "name": "Serpent.AI",
             "url": "https://github.com/SerpentAI/SerpentAI",
             "short_descr": "Framework",
             "long_descr": "Serpent.AI is a simple yet powerful, novel framework to assist developers in the creation of game agents.",
-            "stars": 4540,
+            "stars": 4551,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -652,7 +819,7 @@
             "url": "https://github.com/kh-kim/stock_market_reinforcement_learning",
             "short_descr": "Stock Market",
             "long_descr": "General environment for stock market trading simulation using OpenAI Gym.",
-            "stars": 468,
+            "stars": 469,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -678,7 +845,7 @@
             "url": "https://github.com/Microsoft/TextWorld",
             "short_descr": "Text",
             "long_descr": "Sandbox for training and testing reinforcement learning (RL) agents on text-based games.",
-            "stars": 273,
+            "stars": 283,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
