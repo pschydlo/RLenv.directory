@@ -33,7 +33,6 @@ class Results extends Component {
   
     return (
       <div>
-        <h2>Results:</h2>
         <div>
           {envs.map(env =>  
               <div key={env.name} className="card">
