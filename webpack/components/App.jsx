@@ -3,6 +3,7 @@ import TagPanel from './TagPanel';
 import Results from './Results';
 import React, { Component } from 'react';
 
+
 var DATA_ENDPOINT = '/data/envs.json'
 var TAG_ENDPOINT  = '/data/tags.json'
 
@@ -144,24 +145,7 @@ class App extends Component {
             { this.state.loading ? (
             <div>loading</div>
             ) : (
-              <div>
-              {envs.map(env =>  
-                  <div key={env.name} className="card">
-                  <div className="card-body">
-                    <p><span>{env.stars}</span><i className="fas fa-star"></i></p>
-                    <h5 className="card-title">{env.name} </h5>
-                    <h6 className="card-subtitle mb-2 text-muted">{env.short_descr}</h6>
-                    <p className="card-text">{env.long_descr}</p>
-                    <p>
-                    {env.tags.slice(0,2).map(tag =>
-                      <div className="label label-success">{tag}</div>
-                    )}
-                    </p>
-                    <a href={env.url} className="card-link">More info</a>
-                  </div>
-                  </div>
-              )}
-              </div>  
+            <Results results={envs} />
             )}
         </main>
       </div>

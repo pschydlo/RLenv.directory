@@ -28,10 +28,13 @@
     "babel-preset-react": "^6.24.1",
     "react": "^15.6.2",
     "react-addons-update": "^15.6.2",
-    "react-dom": "^15.6.2",
     "react-bootstrap": "0.32.1",
-    "webpack": "^4.16.5",
+    "react-dom": "^15.6.2",
+    "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
     "webpack-command": "^0.4.1"
+  },
+  "dependencies": {
+    "react-paginate": "^5.2.4"
   }
 }
