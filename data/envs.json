@@ -5,7 +5,7 @@
             "url": "https://github.com/allenai/ai2thor",
             "short_descr": "Navigation",
             "long_descr": "Photo-realistic interactable framework for AI agents.",
-            "stars": 196,
+            "stars": 197,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -56,6 +56,20 @@
             ]
         },
         {
+            "name": "AgentSimulator",
+            "url": "https://github.com/ClemensLode/AgentSimulator",
+            "short_descr": "Competition",
+            "long_descr": "A predator&prey simulator in Java.",
+            "stars": 0,
+            "num_agents": 2,
+            "complexity": "medium",
+            "tags": [
+                "Competition",
+                "Multi-agent",
+                "Java"
+            ]
+        },
+        {
             "name": "AirGym",
             "url": "https://github.com/Kjell-K/AirGym",
             "short_descr": "Quadcopter",
@@ -80,6 +94,32 @@
             "tags": [
                 "Simulator",
                 "Control"
+            ]
+        },
+        {
+            "name": "Arcade Learning Environment",
+            "url": "https://github.com/mgbellemare/Arcade-Learning-Environment",
+            "short_descr": "Arcade",
+            "long_descr": "Simple object-oriented framework to develop AI agents for Atari 2600 games.",
+            "stars": 970,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Arcade",
+                "2D"
+            ]
+        },
+        {
+            "name": "Autonomous Vehicle Relocation",
+            "url": "https://github.com/CanePunma/Multi_Agent_Deep_Reinforcement_Learning",
+            "short_descr": "Driving",
+            "long_descr": "Grid world environment where vehicles must pick up customers.",
+            "stars": 4,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tags": [
+                "Driving",
+                "Multi-agent"
             ]
         },
         {
@@ -112,12 +152,27 @@
             "url": "https://github.com/carla-simulator/carla",
             "short_descr": "Driving simulator",
             "long_descr": "Open-source simulator for autonomous driving research.",
-            "stars": 1648,
+            "stars": 1649,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
                 "Simulator",
                 "Driving"
+            ]
+        },
+        {
+            "name": "CHALET",
+            "url": "https://github.com/clic-lab/chalet",
+            "short_descr": "Navigation",
+            "long_descr": "3D house simulator with support for navigation and manipulation.",
+            "stars": 26,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Vision",
+                "Navigation",
+                "3D",
+                "Robotics"
             ]
         },
         {
@@ -175,6 +230,19 @@
             ]
         },
         {
+            "name": "Deepo",
+            "url": "https://github.com/ufoym/deepo",
+            "short_descr": "Docker",
+            "long_descr": "Docker images that allows you to quickly set up your deep learning research environment.",
+            "stars": 4156,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Docker",
+                "Framework"
+            ]
+        },
+        {
             "name": "Domination-Game",
             "url": "https://github.com/noio/Domination-Game",
             "short_descr": "Team Competition",
@@ -200,6 +268,31 @@
                 "Video Game",
                 "RTS",
                 "Arcade"
+            ]
+        },
+        {
+            "name": "Easy21",
+            "url": "https://github.com/mtthss/easy21",
+            "short_descr": "Blackjack",
+            "long_descr": "Environment for a modified Blackjack .",
+            "stars": 2,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Card Game"
+            ]
+        },
+        {
+            "name": "EnMAS",
+            "url": "https://github.com/EnMAS/EnMAS-Framework",
+            "short_descr": "POMDP Framework",
+            "long_descr": "This project is a framework and an application for specifying POMDP problems and Agents.",
+            "stars": 12,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Control",
+                "Framework"
             ]
         },
         {
@@ -244,7 +337,7 @@
             "url": "https://github.com/StanfordVL/GibsonEnv",
             "short_descr": "Autonomous navigation",
             "long_descr": "Real-World Perception for Embodied Agents.",
-            "stars": 154,
+            "stars": 160,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -260,6 +353,19 @@
             "short_descr": "Multi-agent",
             "long_descr": "Learning to stop a swarm of locusts from rolling.",
             "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Multi-agent",
+                "Cooperation"
+            ]
+        },
+        {
+            "name": "Grid Soccer Simulator",
+            "url": "https://github.com/sinairv/GridSoccerSimulator",
+            "short_descr": "Soccer",
+            "long_descr": "Multi-agent soccer simulator in a grid-world environment.",
+            "stars": 2,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -475,6 +581,19 @@
             ]
         },
         {
+            "name": "HearthEnv",
+            "url": "https://github.com/albertwujj/HearthEnv",
+            "short_descr": "Hearthstone",
+            "long_descr": "A Hearthstone environment for reinforcement learning agents.",
+            "stars": 1,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Video Game",
+                "Gym"
+            ]
+        },
+        {
             "name": "HighwaySim",
             "url": "https://github.com/tall-josh/HighwaySim",
             "short_descr": "Driving",
@@ -510,7 +629,8 @@
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
-                "Poker"
+                "Poker",
+                "Card Game"
             ]
         },
         {
@@ -545,7 +665,7 @@
             "url": "https://github.com/deepmind/lab",
             "short_descr": "Quake III",
             "long_descr": "A customisable 3D platform for agent-based AI research based on id Software's Quake III Arena via ioquake3.",
-            "stars": 5274,
+            "stars": 5276,
             "num_agents": 1,
             "complexity": "high",
             "tags": [
@@ -578,6 +698,18 @@
                 "Eco System",
                 "Competition",
                 "Multi-agent"
+            ]
+        },
+        {
+            "name": "MDP",
+            "url": "https://github.com/BlackHC/mdp",
+            "short_descr": "MDP",
+            "long_descr": "Make it easy to specify simple MDPs that are compatible with the OpenAI Gym.",
+            "stars": 8,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Control"
             ]
         },
         {
@@ -624,15 +756,18 @@
             ]
         },
         {
-            "name": "MDP",
-            "url": "https://github.com/BlackHC/mdp",
-            "short_descr": "MDP",
-            "long_descr": "Make it easy to specify simple MDPs that are compatible with the OpenAI Gym.",
-            "stars": 8,
+            "name": "Meta Car",
+            "url": "https://github.com/thibo73800/metacar",
+            "short_descr": "Driving",
+            "long_descr": "Environment for self-driving cars in the browser.",
+            "stars": 167,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
-                "Control"
+                "Driving",
+                "2D",
+                "Framework",
+                "JavaScript"
             ]
         },
         {
@@ -662,6 +797,20 @@
             ]
         },
         {
+            "name": "Multi-Agent Particle Environment",
+            "url": "https://github.com/openai/multiagent-particle-envs",
+            "short_descr": "Multi-agent",
+            "long_descr": "Multi-agent particle world with a continuous observation and discrete action space.",
+            "stars": 345,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tags": [
+                "Cooperation",
+                "Multi-agent",
+                "Competition"
+            ]
+        },
+        {
             "name": "Multiagent Competition",
             "url": "https://github.com/openai/multiagent-competition",
             "short_descr": "Competition",
@@ -679,7 +828,7 @@
             "url": "https://github.com/vitchyr/multiworld",
             "short_descr": "Multitask",
             "long_descr": "Multitask Environments for RL.",
-            "stars": 22,
+            "stars": 23,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -711,6 +860,20 @@
                 "Arcade",
                 "Pacman",
                 "2D"
+            ]
+        },
+        {
+            "name": "Personae",
+            "url": "https://github.com/Ceruleanacg/Personae",
+            "short_descr": "Trading",
+            "long_descr": "Simulates Financial Market supporting Stock and Future trading.",
+            "stars": 601,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Finance",
+                "Stock Market",
+                "Simulator"
             ]
         },
         {
@@ -861,7 +1024,7 @@
             "url": "https://github.com/openai/roboschool",
             "short_descr": "Robotics",
             "long_descr": "Open-source software for robot simulation, integrated with OpenAI Gym.",
-            "stars": 1355,
+            "stars": 1354,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -910,6 +1073,19 @@
             ]
         },
         {
+            "name": "Sentience",
+            "url": "https://github.com/Dirichi/sentience",
+            "short_descr": "Framework",
+            "long_descr": "Library for designing environments and agents for reinforcement learning.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "simple",
+            "tags": [
+                "Framework",
+                "JavaScript"
+            ]
+        },
+        {
             "name": "Serpent.AI",
             "url": "https://github.com/SerpentAI/SerpentAI",
             "short_descr": "Framework",
@@ -920,6 +1096,32 @@
             "tags": [
                 "Framework",
                 "Video Game"
+            ]
+        },
+        {
+            "name": "Simbad",
+            "url": "https://github.com/jimmikaelkael/simbad",
+            "short_descr": "Robotics",
+            "long_descr": "Simbad is a Java 3d robot simulator for scientific and educationnal purposes.",
+            "stars": 11,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Robotics",
+                "Java"
+            ]
+        },
+        {
+            "name": "Simple-RL-Terminal-Environment",
+            "url": "https://github.com/wmcclinton/Simple-RL-Terminal-Environment",
+            "short_descr": "Competition",
+            "long_descr": "Made for 2 agents with turn based movements, can be extended for multiple agents.",
+            "stars": 0,
+            "num_agents": 2,
+            "complexity": "medium",
+            "tags": [
+                "Competition",
+                "Multi-agent"
             ]
         },
         {
@@ -936,11 +1138,24 @@
             ]
         },
         {
+            "name": "Space Battle",
+            "url": "https://github.com/aspk/space_battle",
+            "short_descr": "Multi-agent",
+            "long_descr": "Environment for many on many bot fight between space ships.",
+            "stars": 0,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tags": [
+                "Multi-agent",
+                "Competition"
+            ]
+        },
+        {
             "name": "Stock Market RL",
             "url": "https://github.com/kh-kim/stock_market_reinforcement_learning",
             "short_descr": "Stock Market",
             "long_descr": "General environment for stock market trading simulation using OpenAI Gym.",
-            "stars": 470,
+            "stars": 471,
             "num_agents": 1,
             "complexity": "medium",
             "tags": [
@@ -1014,6 +1229,31 @@
             ]
         },
         {
+            "name": "TradingGym",
+            "url": "https://github.com/Yvictor/TradingGym",
+            "short_descr": "Trading",
+            "long_descr": "Trading and Backtesting environment.",
+            "stars": 250,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Finance",
+                "Stock Market"
+            ]
+        },
+        {
+            "name": "Troccas",
+            "url": "https://github.com/marccathomen/troccas",
+            "short_descr": "Card Game",
+            "long_descr": "Troccas is a card game played in the region of Surselva, Canton Grisons in Switzerland.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Card Game"
+            ]
+        },
+        {
             "name": "UE-Torch",
             "url": "https://github.com/facebook/UETorch",
             "short_descr": "Unreal Engine",
@@ -1027,6 +1267,20 @@
             ]
         },
         {
+            "name": "Unity ML Environments",
+            "url": "https://github.com/MarcoMeter/Unity-ML-Environments",
+            "short_descr": "Unity ML",
+            "long_descr": "Game simulations as machine learning environments.",
+            "stars": 11,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Unity",
+                "3D",
+                "Control"
+            ]
+        },
+        {
             "name": "VizDoom",
             "url": "https://github.com/mwydmuch/ViZDoom",
             "short_descr": "Doom",
@@ -1037,6 +1291,32 @@
             "tags": [
                 "Video Game",
                 "Doom",
+                "3D"
+            ]
+        },
+        {
+            "name": "WumpusWorld",
+            "url": "https://github.com/mattkrikorian/WumpusWorld",
+            "short_descr": "Wumpus World",
+            "long_descr": "Wumpus World Environment.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Memory",
+                "Java"
+            ]
+        },
+        {
+            "name": "rlTORCS",
+            "url": "https://github.com/YurongYou/rlTORCS",
+            "short_descr": "Driving",
+            "long_descr": "A modified version of TORCS for deep reinforcement learning.",
+            "stars": 34,
+            "num_agents": 1,
+            "complexity": "high",
+            "tags": [
+                "Driving",
                 "3D"
             ]
         }
