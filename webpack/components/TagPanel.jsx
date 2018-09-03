@@ -40,7 +40,7 @@ class TagPanel extends Component {
       <div>
       <h3>Tags</h3>
       {Object.keys(tags).map( tag => 
-      <TagButton onToggle={this.tagToggle} tagName={tag} tagCount={tags[tag]}/>
+      <TagButton key={tag} onToggle={this.tagToggle} tagName={tag} tagCount={tags[tag]}/>
       )}
       </div> 
     )
