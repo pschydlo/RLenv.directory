@@ -33,7 +33,10 @@ def fetch_stars(envs):
         repo_info = repo_info.json()
 
         envs[i]['stars'] = repo_info['stargazers_count'] 
-        sys.stdout.write('.')
+
+        log_txt = "\r{0}/{1}".format(i+1, len(envs))
+
+        sys.stdout.write(log_txt)
         sys.stdout.flush()
 
     print(" ")
@@ -69,7 +72,7 @@ with open(ENV_FILE) as f:
 
     # Iterate through environments and get updated star count from github
     envs = fetch_stars(envs)
-    
+
     # Sort by environment name and define attribute order
     envs = sorted(envs, key=itemgetter('name')) 
     envs = order_dict_keys(envs)
