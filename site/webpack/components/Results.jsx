@@ -8,29 +8,49 @@ class Results extends Component {
     this.state = 
       { 
         perPage: 12,
-        offset: 0
+        offset: 0,
+        currentPage: 0
       }
 
     this.handlePageClick = this.handlePageClick.bind(this);
     this.pageCount = this.pageCount.bind(this);
+    this.getEntries = this.getEntries.bind(this);
   }
 
   pageCount(data){
-    return Math.ceil(data.length/this.state.perPage) - 1
+    var count = Math.ceil(data.length/this.state.perPage)
+    return count
   };
 
   handlePageClick(data){
     let selected = data.selected;
     let offset = Math.ceil(selected * this.state.perPage);
 
-    console.log(offset)
-
-    this.setState({offset: offset})
+    this.setState(
+      {
+        offset: offset,
+        currentPage: selected
+      })
   };
 
-  render() {
+  getEntries(){
     var envs = this.props.results.slice(this.state.offset, this.state.offset + this.state.perPage)
-  
+    
+    // If selected page is above number of pages and there is content to show
+    if(envs.length == 0 && this.props.results.length != 0){
+      this.setState(
+        { 
+          currentPage: 0,
+          offset: 0
+        })
+    }
+
+    return envs
+  }
+
+  render() {
+    var envs = this.getEntries()
+
     return (
       <div>
         <div>
@@ -41,11 +61,11 @@ class Results extends Component {
                 <h5 className="card-title">{env.name} </h5>
                 <h6 className="card-subtitle mb-2 text-muted">{env.short_descr}</h6>
                 <p className="card-text">{env.long_descr}</p>
-                <p>
+                <div className="tag-group">
                 {env.tags.slice(0,2).map(tag =>
-                  <div className="label label-success">{tag}</div>
+                  <div key={tag} className="label label-success">{tag}</div>
                 )}
-                </p>
+                </div>
                 <a href={env.url} className="card-link">More info</a>
               </div>
               </div>
@@ -62,7 +82,8 @@ class Results extends Component {
                        onPageChange={this.handlePageClick}
                        containerClassName={"pagination"}
                        subContainerClassName={"pages pagination"}
-                       activeClassName={"active"} />
+                       activeClassName={"active"} 
+                       forcePage={this.state.currentPage}/>
         </div>
       </div>
 
