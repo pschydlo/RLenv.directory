@@ -1,5 +1,7 @@
 import json
 from pprint import pprint
+from operator import itemgetter
+from collections import OrderedDict
 
 ENV_FILE = '../site/data/envs.json'
 TAG_FILE = '../site/data/tags.json'
@@ -22,12 +24,14 @@ def extract_tags(json):
 
 def save_tags(tags, TAG_FILE):
     with open(TAG_FILE, 'w') as fp:
-        json.dump(tags, fp, sort_keys=True, indent=4)
+        json.dump(tags, fp, indent=4)
 
 
 with open(ENV_FILE) as f:
     data = json.load(f)
 
     tags = extract_tags(data)
+
+    tags = OrderedDict(sorted(tags.items(), key=itemgetter(1), reverse=True))
     
     save_tags(tags, TAG_FILE)
