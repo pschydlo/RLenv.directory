@@ -11,6 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    // Initialize component state
     this.state = {
       loading: true,
       envs: [],
@@ -19,6 +20,7 @@ class App extends Component {
       filter_opt: {}
     };
 
+    // React boilerplate
     this.filterChange = this.filterChange.bind(this)
     this.sortEnvs = this.sortEnvs.bind(this)
     this.updateSortFn = this.updateSortFn.bind(this)
@@ -47,18 +49,18 @@ class App extends Component {
     )
   }
 
+  // Filter update callback, receives new filter options from child components
   filterChange(new_filter_opt){
 
     var filter_opt = this.state.filter_opt 
 
+    // Iterate over received options and add new constraints to the filter.
     for (var key in new_filter_opt){
       filter_opt[key] = new_filter_opt[key]
     }
 
-    console.log(filter_opt)
-
-    var envs = this.state.envs
-    var filtered_envs = this.filterFn(envs, filter_opt)
+    // Filter the environments with the constraint verifier method ('checkEnv')
+    var filtered_envs = this.state.envs.filter(env => this.checkEnv(env, filter_opt))
   
     this.setState({
       filtered_envs: filtered_envs,
@@ -66,69 +68,31 @@ class App extends Component {
     })
   }
 
+  // Sort update callback, receives request for sorting from child components
   updateSortFn(sortFn){
     this.setState({
       sortFn: sortFn
     })
   }
 
-  sortEnvs(sortFn){
-    if (!('sortFn' in this.state)) return this.state.filtered_envs
-
-    var filtered_envs = this.state.filtered_envs
-    filtered_envs.sort(this.state.sortFn)
-
-    return filtered_envs
-  }
-
-  filterFn(envs, filter_opt){
-    var filtered_envs = []
-
-    for (var i = 0; i < envs.length; i++) {
-      var env = envs[i]
-
-      if (!this.checkEnv(env, filter_opt)) continue
-     
-      filtered_envs.push(env)
-    }
-
-    return filtered_envs
-  }
-
+  // Function to verify if environment is within the filter constraints
   checkEnv(env, filter_opt){
-    
+
+    // Iterates over all filter constraints
     for(var key in filter_opt){
-      switch(key){
-        case("complexity"):
-          if (env.complexity != filter_opt[key]) return false
-          break
-
-        case("agents"):
-          if ((filter_opt[key] != 3 && env.num_agents != filter_opt[key]) || (filter_opt[key] == 3 && env.num_agents < 3) ) return false
-          break
-        
-        case("tags"):
-          var present = true
-
-          for(var j=0; j< filter_opt[key].length; j++){
-            // Check if the tag is present in the environment
-            var curr_tag = filter_opt[key][j]
-  
-            if (env.tags.indexOf(curr_tag) == -1){
-              present = false
-              break
-            }
-          }
-          
-          if (present == false){
-            return false
-          }
-          break
-      }
+      if(!filter_opt[key](env)) return false
     }
-
     return true
   }
+
+  // Returns sorted environments
+  sortEnvs(sortFn){
+    // check if sort requested
+    if (!('sortFn' in this.state)) return this.state.filtered_envs
+    
+    return this.state.filtered_envs.sort(this.state.sortFn)
+  }
+
 
   render() {
 

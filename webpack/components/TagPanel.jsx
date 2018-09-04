@@ -23,9 +23,20 @@ class TagPanel extends Component {
       tags.push(tag)
     }
     
+    var filterFn = function(env)
+    {
+      // Iterate over all tags
+      for(var tag in tags){
+        // Check if the tag is present in the environment
+        if (env.tags.indexOf(tag) == -1) return false
+      }
+      
+      return true
+    }
+
     var filter_opt = this.state.filter_opt
-    filter_opt.tags = tags
-    
+    filter_opt['tags'] = filterFn
+     
     this.setState({
       filter_opt: filter_opt
     })
