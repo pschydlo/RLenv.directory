@@ -14,7 +14,7 @@ Learning environments are the datasets of reinforcement learning, a key piece fo
 - Filter environments by descriptive tags
 - Order by number of Github stars
 - Filter by complexity and number of agents
-- 65+ indexed environments
+- 100+ indexed environments
 
 ## Contributing
 
