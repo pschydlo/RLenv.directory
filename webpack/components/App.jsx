@@ -3,7 +3,6 @@ import TagPanel from './TagPanel';
 import Results from './Results';
 import React, { Component } from 'react';
 
-
 var DATA_ENDPOINT = '/data/envs.json'
 var TAG_ENDPOINT  = '/data/tags.json'
 
