@@ -7,7 +7,7 @@ class Results extends Component {
 
     this.state = 
       { 
-        perPage: 12,
+        perPage: 16,
         offset: 0,
         currentPage: 0
       }
