@@ -13,6 +13,7 @@ We've created this guideline to get you started as fast and painless (contributi
   * [Tagging existing environments](#tagging-existing-environments)
   * [Submitting feature requests](#submitting-feature-requests)
   * [Contributing to the core code](#contributing-to-the-core-code)
+  * [Running the platform locally](#running-the-platform-locally)
 
 ## I just want to ask question
 
@@ -53,27 +54,31 @@ The format for any environment is:
 ### Tagging existing environments
 
 Every environment has a list of tags which allow it to be found. At the moment the environments have very few tags which makes their exploration a bit harder.
+
 If you have a minute to spare it would be nice if you could give a look a the list of environments at `site/data/envs.json` and add any tags you feel are appropriate for the environmens!
 
 ### Submitting feature requests
 
 This platform can only grow and thrive if we hear your cool ideas about how we can best explore the environments!
 You think it would be nice to visualize the distribution of Github stars in the repositories or create anetwork of contributors who are maintaining them?
+
 The sky is not the limit, let your creativity flow into a feature request!
 
 To submit a feature request please [open an issue](https://github.com/pschydlo/RLenv.directory/issues) and be as detailed as possible about your ideas (you can even use that little sketch book of yours and send us a drawing :) )
 
 ### Contributing to the core code
 
-Are you a frontend wizzard which is looking for a project to test the limits of client side processing? You have come to the right place! 
-Due to the limits of static file hosting on Github all the data is stored in static JSON files in `site/data/envs.json` and then manipulated and searched in the front end through our React frontend.
+Are you a frontend wizzard looking for a project to test the limits of client side processing? You have come to the right place! 
+
+Due to the limits of static file hosting on Github all the data is stored in static JSON files in `site/data/envs.json` and then manipulated and searched through our React frontend.
+
 We are always looking for ideas on how to make the frontend code more scalable and give the community new ways of exploring environments! 
+
 If you are interested in contributing to the core code we have some issues tagged with help-wanted which let you jump right in!
 
 ## Running the platform locally
 
-We know you are ready to dig in and make this the front end application of the century (we are loving your enthusiasm!) and dig into the code, So here 
-are the steps you were looking for to get started:
+We know you are ready to dig in and make this the front end application of the century (we are loving your enthusiasm!) and dig into the code, So here are the steps you were looking for to get started:
 
 1. Install [NPM](https://www.npmjs.com/get-npm)
 2. Run `ǹpm install` in the `/site` folder to get those dependencies installed.
