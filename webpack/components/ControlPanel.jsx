@@ -23,6 +23,7 @@ class ControlPanel extends Component {
 
     var filterFn = function(env)
     { 
+      if (level == 'all') return true
       if (env.complexity != level) return false 
       return true
     }
@@ -38,6 +39,7 @@ class ControlPanel extends Component {
 
     var filterFn = function(env) 
     { 
+      if (num_agents == 'All') return true
       if ((num != 3 && env.num_agents != num) || (num == 3 && env.num_agents < 3) ) return false
       return true
     }
@@ -85,9 +87,9 @@ class ControlPanel extends Component {
       
         <DropBot onSelect={this.sortSelect} options={["Stars asc.", "Stars desc.", "Name asc.", "Name desc."]} text="Sort"/>
         
-        <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+"]} text="Agents"/>
+        <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+", "<hr/>", "All"]} text="Agents"/>
 
-        <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High"]} text="Complexity"/>
+        <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High", "<hr/>", "All"]} text="Complexity"/>
 
       </div> 
     )
