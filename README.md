@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://rlenv.directory/assets/images/logo.png" alt="Logo" width="256px" >
+  <a href="https://rlenv.directory"><img src="https://rlenv.directory/assets/images/logo.png" alt="Logo" width="256px" ></a>
   </br>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PR">
   </br>
