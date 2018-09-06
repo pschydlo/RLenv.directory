@@ -87,9 +87,9 @@ class ControlPanel extends Component {
       
         <DropBot onSelect={this.sortSelect} options={["Stars asc.", "Stars desc.", "Name asc.", "Name desc."]} text="Sort"/>
         
-        <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+", "<hr/>", "All"]} text="Agents"/>
+        <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+", ":divider:", "All"]} text="Agents"/>
 
-        <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High", "<hr/>", "All"]} text="Complexity"/>
+        <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High", ":divider:", "All"]} text="Complexity"/>
 
       </div> 
     )
