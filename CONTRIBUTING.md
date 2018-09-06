@@ -13,8 +13,11 @@ We've created this guideline to get you started as fast and painless (contributi
   * [Tagging existing environments](#tagging-existing-environments)
   * [Submitting feature requests](#submitting-feature-requests)
   * [Contributing to the core code](#contributing-to-the-core-code)
-  * [Running the platform locally](#running-the-platform-locally)
 
+[Running the platform locally](#running-the-platform-locally)
+  * [Serving static files with Jekyll](#serving-static-files-with-jekyll)
+  * [Bundling React components](#bundling-react-components)
+  
 ## I just want to ask question
 
 Great! Questions are important! 
@@ -38,13 +41,13 @@ Found or created a cool new environment! Heck yeah, the more the merrier! Add yo
 The format for any environment is:
 ```
 {
-    "name": "{Name}",
-    "url": "{Github repository URL}",
+    "name"       : "{Name}",
+    "url"        : "{Github repository URL}",
     "short_descr": "{One word description}",
-    "long_descr": "{One sentence description}",
-    "stars": {Number of stars at the moment of submission, this field is updated periodically by a script},
-    "num_agents": {Number of simultanously interacting agents the environments supports},
-    "complexity": "{Difficulty of the environment: low, medium or high}",
+    "long_descr" : "{One sentence description}",
+    "stars"      :  {Number of stars at the moment of submission, this field is updated periodically by a script},
+    "num_agents" :  {Number of simultanously interacting agents the environments supports},
+    "complexity" : "{Difficulty of the environment: low, medium or high}",
     "tags": [
         "{List of tags which make the environment searchable on the platform}"
     ]
@@ -78,11 +81,20 @@ If you are interested in contributing to the core code we have some issues tagge
 
 ## Running the platform locally
 
-We know you are ready to dig in and make this the front end application of the century (we are loving your enthusiasm!) and dig into the code, So here are the steps you were looking for to get started:
+### Serving static files with Jekyll
+
+Your 3 step guide to serving the static files locally:
+
+1. Install the [Jekyll Gem](https://jekyllrb.com/docs/installation/)
+2. Change into the `/site` directory
+3. Serve the platform with `jekyll serve` 
+
+### Bundling React components
+
+We know you are ready to dig in and make this the front end application of the century (we are loving your enthusiasm!), So here are the steps you were looking for to get started:
 
 1. Install [NPM](https://www.npmjs.com/get-npm)
 2. Run `ǹpm install` in the `/site` folder to get those dependencies installed.
 3. Install [Webpack](https://webpack.js.org/guides/installation/) (needed for .jsx and JS bundling)
-4. Install [Jekyll](https://jekyllrb.com/docs/installation/)
-5. Run `webpack -w` in the `/site` folder, this watches the .jsx files for changes and transpiles them when necessary.
-6. Open a new terminal, navigate to the `/site` folder and run `jekyll serve -l`, this serves the platform with auto-reloading enabled
+4. Run `webpack -w` in the `/site` folder, this watches the .jsx files for changes and bundles them when necessary.
+5. Open a new terminal, navigate to the `/site` folder and run `jekyll serve -l`, this serves the platform with auto-reloading enabled (Jekyll install instructions can be found [here](#serving-static-files-with-jekyll))
