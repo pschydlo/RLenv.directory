@@ -53,9 +53,22 @@ class App extends Component {
 
     var filter_opt = this.state.filter_opt 
 
-    // Iterate over received options and add new constraints to the filter.
+    // Iterate over received options and change constraints accordingly.
     for (var key in new_filter_opt){
-      filter_opt[key] = new_filter_opt[key]
+      // Javascript quirk, we are only interested in iterating over dictionary keys.
+      if (new_filter_opt.hasOwnProperty(key)) {
+
+        // Constraint removal
+        if(new_filter_opt[key] == null)
+        {
+          delete filter_opt[key]
+        }
+        // Contraint addition
+        else 
+        {
+          filter_opt[key] = new_filter_opt[key]
+        }
+      }
     }
 
     // Filter the environments with the constraint verifier method ('checkEnv')
