@@ -24,6 +24,8 @@ All learning environments are stored in a easy to edit json file, steps for addi
 2. Adding the environment to "site/data/envs.json"
 3. Opening a pull request
 
+For ideas on different ways you can contribute, head over to the [contribution guide](https://github.com/pschydlo/RLenv.directory/blob/master/CONTRIBUTING.md), we are waiting for you on the other side!
+
 ## Bug Reports
 
 All issue reports are welcome, more detailed guidelines will be added soon.
