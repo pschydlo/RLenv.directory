@@ -15,8 +15,13 @@ class DropBot extends Component {
     handleClick(e, title) {
         e.preventDefault();
 
+        let renderText = title;
+        if(renderText == 'All') {
+            let button = e.target.parentElement.parentElement.previousSibling;
+            renderText = button.getAttribute('data-text');
+        }
         this.setState({
-            'active': title,
+            'active': renderText,
         });
 
         document.dispatchEvent(new MouseEvent('click'));
@@ -28,12 +33,18 @@ class DropBot extends Component {
     render() {
         const activeKey = this.state.active;
         return (
-            <DropdownButton className='Primary' title={this.state.active} id="dropDown">
-            {this.props.options.map(option =>
-                <MenuItem key={option} onClick={(e) => this.handleClick(e, option)} onSelect={() => null}>{option}</MenuItem>
-            )}
+            <DropdownButton className='Primary' title={this.state.active} id="dropDown" data-text={this.props.text}>
+            {this.props.options.map(option => this.renderMenuItem(option))}
             </DropdownButton>
         )
+    }
+
+    renderMenuItem(option) {
+        if(option == ':divider:') {
+            return <MenuItem divider />
+        } else {
+            return <MenuItem key={option} onClick={(e) => this.handleClick(e, option)} onSelect={() => null}>{option}</MenuItem> 
+        }
     }
 }
 
