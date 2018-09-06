@@ -58,12 +58,13 @@ The format for any environment is:
 
 Every environment has a list of tags which allow it to be found. At the moment the environments have very few tags which makes their exploration a bit harder.
 
-If you have a minute to spare it would be nice if you could give a look a the list of environments at `site/data/envs.json` and add any tags you feel are appropriate for the environmens!
+If you have a minute to spare it would be nice if you could give a look a the list of environments at `site/data/envs.json` and add any tags you feel are appropriate for the environments!
 
 ### Submitting feature requests
 
-This platform can only grow and thrive if we hear your cool ideas about how we can best explore the environments!
-You think it would be nice to visualize the distribution of Github stars in the repositories or create anetwork of contributors who are maintaining them?
+This platform is made for you! Let us hear your cool ideas about how you would like to explore environments!
+
+You think it would be nice to visualize the distribution of Github stars or the network of contributors who are maintaining the environments?
 
 The sky is not the limit, let your creativity flow into a feature request!
 
@@ -73,11 +74,14 @@ To submit a feature request please [open an issue](https://github.com/pschydlo/R
 
 Are you a frontend wizzard looking for a project to test the limits of client side processing? You have come to the right place! 
 
-Due to the limits of static file hosting on Github all the data is stored in static JSON files in `site/data/envs.json` and then manipulated and searched through our React frontend.
+Due to the limits of static file hosting on Github all the data is stored in static JSON files under `site/data/envs.json` and then manipulated and searched through our React frontend.
 
-We are always looking for ideas on how to make the frontend code more scalable and give the community new ways of exploring environments! 
+We are always looking for ideas on how to make the frontend code more scalable and give the community new and more intuitive ways of exploring environments!
 
-If you are interested in contributing to the core code we have some issues tagged with help-wanted which let you jump right in!
+Here are some of the ways in which you can contribute:
+
+1. We have some issues tagged with `help-wanted` and  `core` which let you jump right in!
+2. Read through the React components and suggest performance improvement ideas!
 
 ## Running the platform locally
 
