@@ -40,7 +40,7 @@ class DropBot extends Component {
     }
 
     renderMenuItem(option) {
-        if(option == '<hr/>') {
+        if(option == ':divider:') {
             return <MenuItem divider />
         } else {
             return <MenuItem key={option} onClick={(e) => this.handleClick(e, option)} onSelect={() => null}>{option}</MenuItem> 
