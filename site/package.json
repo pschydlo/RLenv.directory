@@ -35,6 +35,7 @@
     "webpack-command": "^0.4.1"
   },
   "dependencies": {
+    "mathjax": "^2.7.5",
     "react-paginate": "^5.2.4"
   }
 }

@@ -16,6 +16,7 @@ twitter_username: pschydlo
 github_username:  pschydlo
 
 markdown: kramdown
+highlighter: rouge
 
 include: ["data/envs_public.json","data/envs.json"]
 
@@ -23,4 +24,4 @@ repository: pschydlo/RLenv.directory
 plugins:
   - "jekyll-github-metadata"
 
-permalink: experiments/:title
+permalink: blog/:title
