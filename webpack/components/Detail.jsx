@@ -21,7 +21,7 @@ class DetailView extends Component {
         </tr>
           {envs.map(env => 
           <tr key={env.name}>
-              <td>{env.name}</td>
+              <td><a href={env.url}>{env.name}</a></td>
               {/*<td>{env.long_descr}</td>*/}
               <td>{env.stars}</td>
               <td>{env.num_agents}</td>
