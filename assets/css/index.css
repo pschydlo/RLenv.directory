@@ -87,7 +87,7 @@ h3{
 }
 
 .fa-link{
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding-left: 0.2em;
 }
 
@@ -130,6 +130,10 @@ h3{
     margin-left: 0.3em;
 }
 
+.fa-link{
+    color: #5e5e5e;
+}
+
 .dropdown-toggle{
     margin-right: 0.3em;
     margin-bottom: 0.6em;
@@ -157,6 +161,26 @@ h3{
     padding-bottom: 1em;
 }
 
+.post-header {
+    width: 100;
+    padding-left: 25%;
+    color: white;
+    background: #136a8a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.post-header a {
+    color: lightblue
+}
+
+.post-header .post-meta{
+    color: lightblue
+}
+
 .post-abstract{
     font-style: italic;
     font-size: 1.5em;
@@ -167,6 +191,18 @@ h3{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
     letter-spacing: -1px;
+    line-height: 1.7em;
+}
+
+.post-content img {
+    width: 15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-content p {
+    margin-bottom: 1.5em;
 }
 
 .post-content h3 {
@@ -176,4 +212,48 @@ h3{
     font-weight: light;
     font-size: 2em;
     letter-spacing: 0px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+table {
+    width: 85%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.th-name{
+    width: 40%;
+}
+
+.th-stars{
+    width: 15%;
+}
+
+.th-agents{
+    width: 15%;
+}
+
+.control-panel{
+    display: inline-block;
+    width: 85%;
+}
+
+.view-selector{
+    float:right;
+    font-size: 1.5em;
+}
+
+.view-selector button{
+    background: transparent;
+}
+
+.view-selected{
+    background-color: rgb(234, 241, 238) !important;
 }

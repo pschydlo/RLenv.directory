@@ -1,4 +1,5 @@
 import DropBot from './DropBot';
+import ViewSelector from './ViewSelector';
 import React, { Component } from 'react';
 
 class ControlPanel extends Component {
@@ -83,14 +84,14 @@ class ControlPanel extends Component {
   // Component render function
   render() {
     return (
-      <div>
-      
+      <div className="control-panel">
         <DropBot onSelect={this.sortSelect} options={["Stars asc.", "Stars desc.", "Name asc.", "Name desc."]} text="Sort"/>
         
         <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+", ":divider:", "All"]} text="Agents"/>
 
         <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High", ":divider:", "All"]} text="Complexity"/>
 
+        <ViewSelector onViewChange={this.props.onViewChange} />
       </div> 
     )
   }

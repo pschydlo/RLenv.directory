@@ -16,11 +16,13 @@ class App extends Component {
       envs: [],
       filtered_envs: [],
       tags: [],
-      filter_opt: {}
+      filter_opt: {},
+      view: 'grid'
     };
 
     // React boilerplate
     this.filterChange = this.filterChange.bind(this)
+    this.viewChange = this.viewChange.bind(this)
     this.sortEnvs = this.sortEnvs.bind(this)
     this.updateSortFn = this.updateSortFn.bind(this)
   }
@@ -46,6 +48,12 @@ class App extends Component {
       filtered_envs: this.state.filtered_envs,
       tags: data})}
     )
+  }
+
+  viewChange(view){
+    this.setState({
+      view: view
+    })
   }
 
   // Filter update callback, receives new filter options from child components
@@ -109,6 +117,7 @@ class App extends Component {
   render() {
 
     const envs = this.sortEnvs(this.state.filtered_envs);
+    const view = this.state.view
 
     return (
       <div>
@@ -116,12 +125,12 @@ class App extends Component {
             <TagPanel tags={this.state.tags} onUpdate={this.filterChange}/>
         </aside>
         <main className="col-md-9">
-            <ControlPanel onSort={this.updateSortFn} onUpdate={this.filterChange}/>
+            <ControlPanel onViewChange={this.viewChange} onSort={this.updateSortFn} onUpdate={this.filterChange}/>
             
             { this.state.loading ? (
             <div>loading</div>
             ) : (
-            <Results results={envs} />
+            <Results viewMode={view} results={envs} />
             )}
         </main>
       </div>
