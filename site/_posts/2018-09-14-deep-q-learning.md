@@ -121,7 +121,9 @@ We were able to demonstrate how to arrive at the update formulas for the Q-learn
 
 In the next article we will look at how to implement the algorithm from scratch in PyTorch!
 
-Stay tuned for updates by staring this repository!
+Stay tuned for updates by staring [this](https://github.com/pschydlo/RLenv.directory) repository!
 
 
-Curious to apply some of these algorithms on different environments? Check out our database of 100+ open source reinforcement learning environments at [RLenv.directory](/)
+Curious to apply some of these algorithms on different environments? Then you have come to the right place!
+
+Explore our database of 100+ open source reinforcement learning environments at [RLenv.directory](/)! :-)

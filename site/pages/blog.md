@@ -15,11 +15,24 @@ permalink: /blog/
                 <b>{{ post.title }}</b>
               </a>
             </h3>
+
+            
+            
+
             
             <div class="post-meta">
             <a href="{{post.author_url}}">{{post.author}}</a>, 
              <time class="dt-published" datetime="{{post.date}}" itemprop="datePublished">
-            Jul 27, 2018
+
+            {% assign day = post.date | date: "%-d"  %}
+            {% case day %}
+              {% when '1' or '21' or '31' %}{{ day }}st
+              {% when '2' or '22' %}{{ day }}nd
+              {% when '3' or '23' %}{{ day }}rd
+              {% else %}{{ day }}th
+            {% endcase %}
+            {{ post.date | date: "of %B, %Y" }}
+            
             </time> 
             </div>
 
