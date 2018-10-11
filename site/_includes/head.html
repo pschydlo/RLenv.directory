@@ -17,9 +17,21 @@
   <link rel="shortcut icon" type="image/ico" href="/assets/images/brain.svg"/>
   <title>RLenv.directory</title>
 
+  {% if page %}
+
+  <meta property="og:url" content="{{ page.url }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:description" content=  "{{ page.abstract }}" />
+  <meta property="og:image" content="{{ page.image }}"/>
+
+  {% else %}
+
   <meta name="twitter:card" content="summary" />
   <meta property="og:title" content="RLenv.directory: Search and find exotic RL environments." />
   <meta property="og:description" content="Your go to place for finding that perfect learning environment. Explore 50+ exotic reinforcement learning environments." />
   <meta property="og:image" content="https://rlenv.directory/assets/images/card.png" />
+
+  {% endif %}
 </head>
 <body>
