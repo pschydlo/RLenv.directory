@@ -7,7 +7,7 @@ categories: experiments cart-pole
 author: "Paul Schydlo"
 author_url: "http://paulschydlo.com"
 abstract: "In this article we will look at the relation between tabular Q-learning and the Deep Q algorithm, we will also introduce the experience replay technique for bias correction."
-image: "https://RLenv.directory/assets/images/post_preview/deep-q-learning.png"
+image: "https://RLenv.directory/assets/images/post_preview/deep-q-learning.jpg"
 ---
 
 # Introduction
