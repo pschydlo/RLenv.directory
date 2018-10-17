@@ -121,11 +121,11 @@ class App extends Component {
 
     return (
       <div>
-        <aside className="col-md-3">
-            <TagPanel tags={this.state.tags} onUpdate={this.filterChange}/>
+        <aside className="col-md-2">
+            {/* <TagPanel tags={this.state.tags} onUpdate={this.filterChange}/> */}
         </aside>
         <main className="col-md-9">
-            <ControlPanel onViewChange={this.viewChange} onSort={this.updateSortFn} onUpdate={this.filterChange}/>
+            <ControlPanel onViewChange={this.viewChange} onSort={this.updateSortFn} onUpdate={this.filterChange} tags={this.state.tags}/>
             
             { this.state.loading ? (
             <div>loading</div>

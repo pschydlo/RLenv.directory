@@ -257,3 +257,78 @@ th, td {
 .view-selected{
     background-color: rgb(234, 241, 238) !important;
 }
+
+.tagInput 
+{
+    width: 30%;
+    border-bottom: 2px solid rgb(194, 194, 194);
+    font-size: 12px;
+    height: 2.7em;
+    float: left;
+    margin-top: 0.1em;
+    padding-bottom: 0.5em;
+    display: table;
+    margin-right: 10%;
+}
+
+.tagInput input{
+    background: none;
+    border-style: none;
+    margin-top: -1em;
+    padding-top: -1em;
+    width: 20%;
+}
+
+.item{
+    background-color: white;
+    padding: 1em;
+}
+
+.item-highlighted{
+    background-color: grey;
+}
+
+.menu{
+    position: absolute;
+    background-color: white;
+    line-height: 1.6;
+    position: absolute;
+}
+
+/* .tag-pill{
+    float:left;
+    margin-right: 0.3em;
+    background-color: green;
+    padding: 0.3em;
+    border-radius: 40%;
+    color: white;
+} */
+
+.tagInput .label-wrapper{
+    float:left;
+    display: table-cell;
+    font-size: 1.2em;
+}
+
+.tagInput input{
+    width: 80%;
+    margin-left: 1em;
+}
+
+.tagInput .input-wrapper{
+    display: table-cell;   
+}
+
+.tagInput{
+    
+}
+
+.tagInput .label{
+    margin-left: 0.5em;
+}
+
+.tagInput .label spann{
+    cursor: pointer;
+    font-size: 1.5em;
+    padding-left: 0.3em;
+}

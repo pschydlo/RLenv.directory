@@ -1,4 +1,5 @@
 import DropBot from './DropBot';
+import TagInput from './TagInput';
 import ViewSelector from './ViewSelector';
 import React, { Component } from 'react';
 
@@ -16,6 +17,8 @@ class ControlPanel extends Component {
     this.agentsSelect = this.agentsSelect.bind(this);
     this.sortSelect = this.sortSelect.bind(this);
     this.updateFilterOptions = this.updateFilterOptions.bind(this)
+
+    console.log(this.props.tags)
   }
 
   // Callback function for agent dropdown selection
@@ -68,7 +71,10 @@ class ControlPanel extends Component {
     var sort_dict = {"Stars asc." : this.sortFunc("stars", 1), 
                      "Stars desc.": this.sortFunc("stars", -1), 
                      "Name asc."  : this.sortFunc("name", 1),
-                     "Name desc." : this.sortFunc("name", -1)}
+                     "Name desc." : this.sortFunc("name", -1),
+                     "Date asc."  : this.sortFunc("created_at", 1),
+                     "Date desc."  : this.sortFunc("created_at", -1)
+                    }
     
     // Communicate the sort request to the parent component
     this.props.onSort(sort_dict[selected])
@@ -85,13 +91,15 @@ class ControlPanel extends Component {
   render() {
     return (
       <div className="control-panel">
-        <DropBot onSelect={this.sortSelect} options={["Stars asc.", "Stars desc.", "Name asc.", "Name desc."]} text="Sort"/>
+        <TagInput tags={this.props.tags} onUpdate={this.props.onUpdate}/>
+        <DropBot onSelect={this.sortSelect} options={["Stars asc.", "Stars desc.", ":divider:", "Name asc.", "Name desc.", ":divider:", "Date asc.", "Date desc."]} text="Sort"/>
         
         <DropBot onSelect={this.agentsSelect} options={["1", "2", "3+", ":divider:", "All"]} text="Agents"/>
 
         <DropBot onSelect={this.complexitySelect} options={["Low", "Medium", "High", ":divider:", "All"]} text="Complexity"/>
 
-        <ViewSelector onViewChange={this.props.onViewChange} />
+        <ViewSelector onViewChange={this.props.onViewChange}/>
+
       </div> 
     )
   }
