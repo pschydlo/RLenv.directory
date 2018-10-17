@@ -1466,6 +1466,21 @@
                 "3D"
             ],
             "created_at": "2017-04-28T11:39:18Z"
+        },
+        {
+            "name": "xiao_multiagent",
+            "url": "https://github.com/namidairo777/xiao_multiagent",
+            "short_descr": "Multi-agent",
+            "long_descr": "Real-time multi-agent pursuit of a moving target.",
+            "stars": 7,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tags": [
+                "Multi-agent",
+                "2D",
+                "Python"
+            ],
+            "created_at": "2016-10-12T06:46:48Z"
         }
     ]
 }
