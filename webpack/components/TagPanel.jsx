@@ -7,7 +7,8 @@ class TagPanel extends Component {
 
     this.state = {
       filter_opt: {},
-      tags: []
+      tags: [],
+      active: false
     };
 
     this.tagToggle = this.tagToggle.bind(this);
