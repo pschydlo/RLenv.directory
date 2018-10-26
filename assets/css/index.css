@@ -271,13 +271,7 @@ th, td {
     margin-right: 10%;
 }
 
-.tagInput input{
-    background: none;
-    border-style: none;
-    margin-top: -1em;
-    padding-top: -1em;
-    width: 20%;
-}
+
 
 .item{
     background-color: white;
@@ -293,6 +287,10 @@ th, td {
     background-color: white;
     line-height: 1.6;
     position: absolute;
+    box-shadow: 0 2px 2px rgba(59, 59, 59, 0.7);
+    height: 14em;
+    overflow: scroll;
+
 }
 
 /* .tag-pill{
@@ -310,21 +308,8 @@ th, td {
     font-size: 1.2em;
 }
 
-.tagInput input{
-    width: 80%;
-    margin-left: 1em;
-}
-
-.tagInput .input-wrapper{
-    display: table-cell;   
-}
-
-.tagInput{
-    
-}
-
 .tagInput .label{
-    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .tagInput .label spann{
@@ -332,3 +317,17 @@ th, td {
     font-size: 1.5em;
     padding-left: 0.3em;
 }
+
+.tagInput .input-wrapper{
+    display: table-cell;   
+}
+
+.tagInput input{
+    width: 80%;
+    background: none;
+    border-style: none;
+    margin-top: -1em;
+    padding-top: -1em;
+}
+
+

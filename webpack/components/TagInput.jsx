@@ -7,7 +7,7 @@ class TagInput extends Component {
 
         this.state = {
                         input: '',
-                        items: props.tags,
+                        items: this.props.tags,
                         tags: []
                      } 
     }
@@ -29,6 +29,13 @@ class TagInput extends Component {
         var items = items.filter(item => item.toLowerCase().includes(text.toLowerCase()))
         console.log(items)
         return items
+    }
+
+    updateItems(){
+        var tags = Object.keys(this.props.tags).map(item => item)
+        var items = this.filterInputs(this.state.input, tags)
+        this.setState({ items: items})
+        console.log(items)
     }
 
     tagToggle(tag){
@@ -83,13 +90,14 @@ class TagInput extends Component {
             </spann>
             <spann className="input-wrapper">
             <Autocomplete
+                
                 value={this.state.input}
                 items={this.state.items}
                 wrapperStyle={{ float: 'left' }}
                 getItemValue={(item) => item}
                 onChange={(event, value) => this.changeFn(value)}
                 onSelect={label => this.selectFn(label)}
-                inputProps={{ placeholder: 'Type tag ' }}
+                inputProps={{ placeholder: 'Type tag ' , onClick: (e) => this.updateItems()}}
                 renderMenu={children => (
                 <div className="menu">
                     {children}
