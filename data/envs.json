@@ -1227,6 +1227,25 @@
             ]
         },
         {
+            "name": "S-RL Toolbox",
+            "url": "https://github.com/araffin/robotics-rl-srl",
+            "short_descr": "SRL",
+            "long_descr": "S-RL Toolbox: Reinforcement Learning (RL) and State Representation Learning (SRL) for Robotics",
+            "stars": 180,
+            "num_agents": 1,
+            "complexity": "medium",
+            "tags": [
+                "Robotics",
+                "Gym",
+                "Navigation",
+                "Framework",
+                "Vision",
+                "Docker",
+                "2D",
+                "3D"
+            ]
+        },
+        {
             "name": "Space Battle",
             "url": "https://github.com/aspk/space_battle",
             "short_descr": "Multi-agent",
