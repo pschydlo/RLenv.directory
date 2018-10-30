@@ -1422,6 +1422,19 @@
                 "2D",
                 "Python"
             ]
+        },
+        {
+            "name": "highway-env",
+            "url": "https://github.com/eleurent/highway-env",
+            "short_descr": "Driving",
+            "long_descr": "A collection of behavioral planning tasks for autonomous driving involving negotiation with other drivers.",
+            "stars":  16,
+            "num_agents":  1,
+            "complexity": "medium",
+            "tags": [
+                "Driving",
+                "Multi-agent"
+            ]
         }
     ]
 }
