@@ -1435,6 +1435,20 @@
                 "Driving",
                 "Multi-agent"
             ]
+        },
+        {
+            "name": "obstacle-env",
+            "url": "https://github.com/eleurent/obstacle-env",
+            "short_descr": "Navigation",
+            "long_descr": "Environment for learning a quadcopter obstacle-avoidance policy using range sensors.",
+            "stars":  3,
+            "num_agents":  1,
+            "complexity": "easy",
+            "tags": [
+                "Quadcopter",
+                "Navigation",
+                "Obstacle"
+            ]
         }
     ]
 }
