@@ -8,4 +8,4 @@ import Collections from './components/Collections'
 
 
 render(<App />, document.getElementById('App'));
-render(<Collections />, document.getElementById('Collections'));
+
