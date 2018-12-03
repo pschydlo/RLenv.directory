@@ -15,7 +15,15 @@ def fetch_stars(envs):
 
     for i in range(0, len(envs)):
         env = envs[i]
+
+        log_txt = "\r{0}/{1}".format(i+1, len(envs))
+
+        sys.stdout.write(log_txt)
+        sys.stdout.flush()
         
+        if 'created_at' in env.keys():
+            continue
+
         repo_url = env['url']
         
         if "github.com" not in repo_url:
@@ -33,11 +41,6 @@ def fetch_stars(envs):
         repo_info = repo_info.json()
 
         envs[i]['created_at'] = repo_info['created_at'] 
-
-        log_txt = "\r{0}/{1}".format(i+1, len(envs))
-
-        sys.stdout.write(log_txt)
-        sys.stdout.flush()
 
     print(" ")
     return envs

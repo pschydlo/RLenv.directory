@@ -57,7 +57,8 @@ def order_dict_keys(envs):
                        ('stars', env['stars']),
                        ('num_agents', env['num_agents']),
                        ('complexity', env['complexity']),
-                       ('tags', env['tags'])]
+                       ('tags', env['tags']),
+                       ('created_at', env['created_at'])]
         
         ordered_env = collections.OrderedDict(ordered_env)
         ordered_envs.append(ordered_env)
