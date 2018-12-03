@@ -32,6 +32,6 @@ with open(ENV_FILE) as f:
 
     tags = extract_tags(data)
 
-    tags = OrderedDict(sorted(tags.items(), key=itemgetter(1), reverse=True))
+    tags = OrderedDict(sorted(tags.items(), key=itemgetter(0), reverse=False))
     
     save_tags(tags, TAG_FILE)
