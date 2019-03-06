@@ -2011,6 +2011,21 @@
                 "3D"
             ],
             "created_at": "2017-04-28T11:39:18Z"
+        },
+        {
+            "name": "Seoul AI Gym",
+            "url": "https://github.com/seoulai/gym",
+            "short_descr": "Checkers, Mighty and Market",
+            "long_descr": "Gym for training RL agents in Checkers, Mighty and Market environments.",
+            "stars": 23,
+            "num_agents": 5,
+            "complexity": "medium",
+            "tags": [
+                "Checkers",
+                "Mighty",
+                "Market"
+            ],
+            "created_at": "2018-10-13T11:24:00Z"
         }
     ]
 }
