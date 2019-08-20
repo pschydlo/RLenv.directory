@@ -2026,6 +2026,19 @@
                 "Market"
             ],
             "created_at": "2018-10-13T11:24:00Z"
+        },
+        {
+            "name": "ma-gym",
+            "url": "https://github.com/koulanurag/ma-gym",
+            "short_descr": "multi-agent",
+            "long_descr": "A collection of multi agent environments based on OpenAI gym.",
+            "stars": 38,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tags": [
+                "multi-agent",
+                "gym"
+            ]
         }
     ]
 }
