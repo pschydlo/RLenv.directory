@@ -1147,7 +1147,7 @@
             "url": "https://github.com/praveen-palanisamy/macad-gym",
             "short_descr": "MACAD-Gym",
             "long_descr": "Multi-Agent learning environments for various driving scenarios in CARLA AD simulator",
-            "stars": 8,
+            "stars": 11,
             "num_agents": 10,
             "complexity": "medium",
             "tags": [
