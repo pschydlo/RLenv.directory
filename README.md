@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PR">
   </br>
   </br>
-  [RLenv.directory](https://rlenv.directory) allows you to explore and find exotic environments. 
+  RLenv.directory allows you to explore and find exotic environments. 
 </p
 
 Learning environments are the datasets of reinforcement learning, a key piece for progress in the field. Our mission is to encourage the creation of new and more complex learning environments by making their discovery easy.
