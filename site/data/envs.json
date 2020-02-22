@@ -2057,6 +2057,20 @@
                 "multi-agent",
                 "gym"
             ]
+        },
+        {
+            "name": "PuckWorld",
+            "url": "https://github.com/nicehiro/puck-world",
+            "short_descr": "Continuous action space puckworld.",
+            "long_descr": "PuckWorld env from David Silver Courses.",
+            "stars": 0,
+            "num_agents": 1,
+            "complexity": "low",
+            "tag": [
+                "single-agent",
+                "gym",
+                "continuous-action"
+            ]
         }
     ]
 }
