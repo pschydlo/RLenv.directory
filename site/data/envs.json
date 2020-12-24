@@ -2111,7 +2111,7 @@
             "short_descr": "Multi-agent",
             "long_descr": "Library for conducting research in multi-agent reinforcement learning. It's akin to a multi-agent version of OpenAI's Gym library.",
             "stars": 362,
-            "num_agents": 4,
+            "num_agents": 1000,
             "complexity": "medium",
             "tag": [
                 "Multi-agent",
@@ -2127,6 +2127,6 @@
                 "Cards",
                 "2D"
             ]
-        },
+        }
     ]
 }
