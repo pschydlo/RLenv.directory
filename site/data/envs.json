@@ -2071,6 +2071,37 @@
                 "gym",
                 "continuous-action"
             ]
+        },
+        {
+            "name": "Neural MMO",
+            "url": "https://github.com/openai/neural-mmo",
+            "short_descr": "MMO",
+            "long_descr": "Massively multiagent AI research environment inspired by Massively Multiplayer Online (MMO) role playing games",
+            "stars": 1246,
+            "num_agents": 128,
+            "complexity": "high",
+            "tag": [
+                "Multi-agent",
+                "Competition",
+                "MMO"
+            ]
+        },
+        {
+            "name": "Google Research Football",
+            "url": "https://github.com/google-research/football",
+            "short_descr": "Soccer",
+            "long_descr": "Agents aim to master the world’s most popular sport—football (soccer)",
+            "stars": 2552,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tag": [
+                "Single-agent",
+                "Multi-agent",
+                "Competition",
+                "Cooperation",
+                "Sports",
+                "Soccer"
+            ]
         }
     ]
 }
