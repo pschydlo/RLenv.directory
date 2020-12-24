@@ -2144,6 +2144,22 @@
                 "Cooperation",
                 "2D"
             ]
+        },
+        {
+            "name": "Screeps",
+            "url": "https://github.com/screeps/screeps",
+            "short_descr": "Scripting MMO",
+            "long_descr": "MMO RTS sandbox game for programmers where you write JavaScript to control AI agents",
+            "stars": 2054,
+            "num_agents": 100,
+            "complexity": "hard",
+            "tag": [
+                "MMO",
+                "Programming",
+                "Text",
+                "Competition",
+                "JavaScript"
+            ]
         }
     ]
 }
