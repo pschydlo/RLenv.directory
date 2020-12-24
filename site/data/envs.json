@@ -2083,7 +2083,8 @@
             "tag": [
                 "Multi-agent",
                 "Competition",
-                "MMO"
+                "MMO",
+                "3D"
             ]
         },
         {
@@ -2100,8 +2101,32 @@
                 "Competition",
                 "Cooperation",
                 "Sports",
-                "Soccer"
+                "Soccer",
+                "3D"
             ]
-        }
+        },
+        {
+            "name": "PettingZoo",
+            "url": "https://github.com/PettingZoo-Team/PettingZoo",
+            "short_descr": "Multi-agent",
+            "long_descr": "Library for conducting research in multi-agent reinforcement learning. It's akin to a multi-agent version of OpenAI's Gym library.",
+            "stars": 362,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tag": [
+                "Multi-agent",
+                "Competition",
+                "Cooperation",
+                "Multi-task",
+                "Arcade",
+                "GridWorld",
+                "Text",
+                "Walking",
+                "Atari",
+                "Continuous-action",
+                "Cards",
+                "2D"
+            ]
+        },
     ]
 }
