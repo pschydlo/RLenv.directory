@@ -2127,6 +2127,22 @@
                 "Cards",
                 "2D"
             ]
+        },
+        {
+            "name": "IC3Net Environments",
+            "url": "https://github.com/apsdehal/ic3net-envs",
+            "short_descr": "Multi-agent Communication",
+            "long_descr": "Traffic junction and predator-prey environments",
+            "stars": 7,
+            "num_agents": 10,
+            "complexity": "medium",
+            "tag": [
+                "Multi-agent",
+                "Communication",
+                "Traffic",
+                "Cooperation",
+                "2D"
+            ]
         }
     ]
 }
