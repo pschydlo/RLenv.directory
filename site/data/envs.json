@@ -2160,6 +2160,20 @@
                 "Competition",
                 "JavaScript"
             ]
+        },
+        {
+            "name": "Overcooked-AI",
+            "url": "https://github.com/HumanCompatibleAI/overcooked_ai",
+            "short_descr": "Multiagent Collaboration",
+            "long_descr": "Fully cooperative human-AI task performance, based on the wildly popular video game Overcooked",
+            "stars": 148,
+            "num_agents": 2,
+            "complexity": "medium",
+            "tag": [
+                "Overcooked",
+                "Cooperation",
+                "Gridworld"
+            ]
         }
     ]
 }
