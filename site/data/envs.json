@@ -2174,6 +2174,20 @@
                 "Cooperation",
                 "Gridworld"
             ]
+        },
+        {
+            "name": "Gym-Cooking",
+            "url": "https://github.com/rosewang2008/gym-cooking",
+            "short_descr": "Multiagent Collaboration",
+            "long_descr": "Based on the wildly popular video game Overcooked",
+            "stars": 88,
+            "num_agents": 2,
+            "complexity": "medium",
+            "tag": [
+                "Overcooked",
+                "Cooperation",
+                "Gridworld"
+            ]
         }
     ]
 }
