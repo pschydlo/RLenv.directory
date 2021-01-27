@@ -2071,6 +2071,123 @@
                 "gym",
                 "continuous-action"
             ]
+        },
+        {
+            "name": "Neural MMO",
+            "url": "https://github.com/openai/neural-mmo",
+            "short_descr": "MMO",
+            "long_descr": "Massively multiagent AI research environment inspired by Massively Multiplayer Online (MMO) role playing games",
+            "stars": 1246,
+            "num_agents": 128,
+            "complexity": "high",
+            "tag": [
+                "Multi-agent",
+                "Competition",
+                "MMO",
+                "3D"
+            ]
+        },
+        {
+            "name": "Google Research Football",
+            "url": "https://github.com/google-research/football",
+            "short_descr": "Soccer",
+            "long_descr": "Agents aim to master the world’s most popular sport—football (soccer)",
+            "stars": 2552,
+            "num_agents": 4,
+            "complexity": "medium",
+            "tag": [
+                "Single-agent",
+                "Multi-agent",
+                "Competition",
+                "Cooperation",
+                "Sports",
+                "Soccer",
+                "3D"
+            ]
+        },
+        {
+            "name": "PettingZoo",
+            "url": "https://github.com/PettingZoo-Team/PettingZoo",
+            "short_descr": "Multi-agent",
+            "long_descr": "Library for conducting research in multi-agent reinforcement learning. It's akin to a multi-agent version of OpenAI's Gym library.",
+            "stars": 362,
+            "num_agents": 1000,
+            "complexity": "medium",
+            "tag": [
+                "Multi-agent",
+                "Competition",
+                "Cooperation",
+                "Multi-task",
+                "Arcade",
+                "GridWorld",
+                "Text",
+                "Walking",
+                "Atari",
+                "Continuous-action",
+                "Cards",
+                "2D"
+            ]
+        },
+        {
+            "name": "IC3Net Environments",
+            "url": "https://github.com/apsdehal/ic3net-envs",
+            "short_descr": "Multi-agent Communication",
+            "long_descr": "Traffic junction and predator-prey environments",
+            "stars": 7,
+            "num_agents": 10,
+            "complexity": "medium",
+            "tag": [
+                "Multi-agent",
+                "Communication",
+                "Traffic",
+                "Predator-prey",
+                "Cooperation",
+                "2D"
+            ]
+        },
+        {
+            "name": "Screeps",
+            "url": "https://github.com/screeps/screeps",
+            "short_descr": "Scripting MMO",
+            "long_descr": "MMO RTS sandbox game for programmers where you write JavaScript to control AI agents",
+            "stars": 2054,
+            "num_agents": 100,
+            "complexity": "hard",
+            "tag": [
+                "MMO",
+                "Programming",
+                "Text",
+                "Competition",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Overcooked-AI",
+            "url": "https://github.com/HumanCompatibleAI/overcooked_ai",
+            "short_descr": "Multiagent Collaboration",
+            "long_descr": "Fully cooperative human-AI task performance, based on the wildly popular video game Overcooked",
+            "stars": 148,
+            "num_agents": 2,
+            "complexity": "medium",
+            "tag": [
+                "Overcooked",
+                "Cooperation",
+                "Gridworld"
+            ]
+        },
+        {
+            "name": "Gym-Cooking",
+            "url": "https://github.com/rosewang2008/gym-cooking",
+            "short_descr": "Multiagent Collaboration",
+            "long_descr": "Based on the wildly popular video game Overcooked",
+            "stars": 88,
+            "num_agents": 2,
+            "complexity": "medium",
+            "tag": [
+                "Overcooked",
+                "Cooperation",
+                "Gridworld"
+            ]
         }
     ]
 }
