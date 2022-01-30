@@ -309,6 +309,25 @@
             "created_at": "2017-10-27T11:41:49Z"
         },
         {
+            "name": "DIAMBRA Arena",
+            "url": "https://github.com/diambra/diambraArena",
+            "short_descr": "Videogames",
+            "long_descr": "Built with OpenAI Gym Python interface, easy to use, transforms popular video games into Reinforcement Learning environments.",
+            "stars": 47,
+            "num_agents": 2,
+            "complexity": "low",
+            "tags": [
+                "Fighting",
+                "Competition",
+                "Imitation Learning",
+                "Multi-agent",
+                "Human-Agent Competition",
+                "Human-in-the-loop",
+                "Self-Play"
+            ],
+            "created_at": "2022-01-30T10:41:49Z"
+        },
+        {
             "name": "Domination-Game",
             "url": "https://github.com/noio/Domination-Game",
             "short_descr": "Team Competition",
